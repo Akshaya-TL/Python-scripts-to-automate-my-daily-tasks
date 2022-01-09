@@ -1,0 +1,1099 @@
+﻿S.No,dept,Subject,Topic,level,Question,Choice 1,Choice 2,Choice 3,Choice 4,Correct Choice ,Explanation ,Reference,Unit Number
+1,IT,JAVA,Java Basics,1,Java Source Code is compiled into?,.Obj,Source Code,Byte Code,.Exe,3,When we compile the Java program the compiler will convert source code to Byte Code nothing but .class files. Which is platform independent.,c4learn.com,1
+2,IT,JAVA,Java Basics,1,Which of the following is not OOPS concept in Java?,Inheritance,Encapsulation,Polymorphism,Exception Handling,4,"There are 4 OOPS concepts in Java. Inheritance, Encapsulation, Polymorphism and Abstraction.",www.sanfoundry.com,1
+3,IT,JAVA,Java Basics,1,Which statement is true about java?,Sequence dependent programming language,Platform independent programming language,Platform dependent programming language,Code dependent programming language,2,"Java is called ‘Platform Independent Language’ as it primarily works on the principle of ‘compile once, run everywhere’.",www.sanfoundry.com,1
+4,IT,JAVA,Java Basics,1,Which component is responsible to optimize bytecode to machine code?,JVM,JDK,JIT,JRE,3,JIT optimizes bytecode to machine specific language code by compiling similar bytecodes at the same time. This reduces overall time taken for compilation of bytecode to machine specific language.,www.sanfoundry.com,1
+5,IT,JAVA,Java Basics,2,Which of the below is invalid identifier with the main method?,public,static,private,final,3,main method cannot be private as it is invoked by external method. Other identifier are valid with main method.,www.sanfoundry.com,1
+6,IT,JAVA,Java Basics,2,Which concept of Java is achieved by combining methods and attribute into a class?,Encapsulation, Inheritance,Polymorphism,Abstraction,1,Encapsulation is implemented by combining methods and attribute into a class. The class acts like a container of encapsulating properties.,www.sanfoundry.com,1
+7,IT,JAVA,Java Basics,2,Which of the following is a type of polymorphism in Java,Compile time polymorphism,Execution time polymorphism,Multiple polymorphism,Multilevel polymorphism,1,There are two types of polymorphism in Java. Compile time polymorphism (overloading) and runtime polymorphism (overriding).,www.sanfoundry.com,1
+8,IT,JAVA,Java Basics,2,"In the beginning , Java was created in order to -",Create Strong Programming alternative to C++,Perform Operations on the Internet,Connect many household machines,Create high performance OS,3,Basic aim of java was to solve the problem of connecting many household machines together.,c4learn.com,1
+9,IT,JAVA,Java Basics,3,Which concept of Java is a way of converting real world objects in terms of class?, Polymorphism,Encapsulation,Abstraction,Inheritance,3,Abstraction is the concept of defining real world objects in terms of classes or interfaces.,www.sanfoundry.com,1
+10,IT,JAVA,Java Basics,3,What is it called if an object has its own lifecycle and there is no owner?,Aggregation,Composition,Encapsulation,Association,4,"It is a relationship where all objects have their own lifecycle and there is no owner. This occurs where many to many relationships are available, instead of one to one or one to many.",www.sanfoundry.com,1
+11,IT,JAVA,Java Basics,3,What is it called where child object gets killed if parent object is killed?, Aggregation,Composition,Encapsulation,Association,2,Composition occurs when child object gets killed if parent object gets killed. Composition is also known as strong Aggregation.,www.sanfoundry.com,1
+12,IT,JAVA,Java Basics,3,The library containing files needed to integrate Java with programs written in other languages resides inside following sub folder.,bin,jre,include,lib,3,The library containing files needed to integrate Java with programs written in other languages resides inside include sub folder.,c4learn.com,1
+13,IT,JAVA,"keywords,datatypes,variables,literals,constants,operators,Expressions",1,which of the following is not a Java keyword?,static ,new,final,Integer,4,"Here static,new and final are keywords",www.javatpoint.com,1
+14,IT,JAVA,"keywords,datatypes,variables,literals,constants,operators,Expressions",1,"Decrement operator, –, decreases value of variable by what number?",1,2,3,4,1,(-) operator value Decremented by 1,www.sanfoundry.com,1
+15,IT,JAVA,"keywords,datatypes,variables,literals,constants,operators,Expressions",1,"Modulus operator, %, can be applied to which of these?",Integers,Floating – point numbers,Both Integers and floating – point numbers.,None of the mentioned,3,Modulus operator can be applied to both integers and floating point numbers.,www.sanfoundry.com,1
+16,IT,JAVA,"keywords,datatypes,variables,literals,constants,operators,Expressions",1,Which of these values can a boolean variable contain?,True & False,0 & 1,Any integer value, true,1,"Boolean variable can contain only one of two possible values, true and false.",www.allindiaexams.in,1
+17,IT,JAVA,"keywords,datatypes,variables,literals,constants,operators,Expressions",2,What is the range of data type byte in Java?,a). -128 to 127,b). -32768 to 32767,c). -2147483648 to 2147483647,"d). None of the mentioned
+",1,Byte occupies 8 bits in memory. Its range is from -128 to 127.,www.allindiaexams.in,1
+18,IT,JAVA,"keywords,datatypes,variables,literals,constants,operators,Expressions",2,What is the range of short data type in Java?,a) -128 to 127,b) -32768 to 32767,c) -2147483648 to 2147483647,d) None of the mentioned,2,Short occupies 16 bits in memory. Its range is from -32768 to 32767.,www.sanfoundry.com,1
+19,IT,JAVA,"keywords,datatypes,variables,literals,constants,operators,Expressions",2,"What is the output of this program?class booloperators {
+        public static void main(String args[]) 
+        {
+            boolean var1 = true;
+     boolean var2 = false;
+     System.out.println((var1 & var2));
+        } 
+    }",a) 0,b) 1,c) true,d) false,4,Explanation: boolean ‘&’ operator always returns true or false. var1 is defined true and var2 is defined false hence their ‘&’ operator result is false.,www.allindiaexams.in,1
+20,IT,JAVA,"keywords,datatypes,variables,literals,constants,operators,Expressions",2,Which one is a valid declaration of a boolean?,a) boolean b1 = 1;,b) boolean b2 = ‘false’;,c) boolean b3 = false;,"d) boolean b4 = ‘true’
+",3,"Boolean can only be assigned true or false literals.
+",www.sanfoundry.com,1
+21,IT,JAVA,"keywords,datatypes,variables,literals,constants,operators,Expressions",3,"What is the output of this program?
+
+    class asciicodes {
+        public static void main(String args[]) 
+        {
+            char var1 = 'A';
+     char var2 = 'a';
+     System.out.println((int)var1 + "" "" + (int)var2);
+        } 
+    }",a) 162,b) 65 97,c) 67 95,"d) 66 98
+",2,ASCII code for ‘A’ is 65 and for ‘a’ is 97.,www.sanfoundry.com,1
+22,IT,JAVA,"keywords,datatypes,variables,literals,constants,operators,Expressions",3,"What is the output of this program?
+
+    class mainclass {
+        public static void main(String args[]) 
+        {
+            char a = 'A';
+            a++;
+     System.out.print((int)a);
+        } 
+    }",a) 66,b) 67,c) 65,d) 64,1,"ASCII value of ‘A’ is 65, on using ++ operator character value increments by one.",www.indiabix.com,1
+23,IT,JAVA,"keywords,datatypes,variables,literals,constants,operators,Expressions",3,Which one of these lists contains only Java programming language keywords?,"a). class, if, void, long, Int, continue","b). goto, instanceof, native, finally, default, throws","c). try, virtual, throw, final, volatile, transient","d). strictfp, constant, super, implements, do",2,"All the words in option B are among the 49 Java keywords. Although goto reserved as a keyword in Java, goto is not used and has no function.
+
+Option A is wrong because the keyword for the primitive int starts with a lowercase i.
+
+Option C is wrong because ""virtual"" is a keyword in C++, but not Java.
+
+Option D is wrong because ""constant"" is not a keyword. Constants in Java are marked static and final.",www.allindiaexams.in,1
+24,IT,JAVA,"keywords,datatypes,variables,literals,constants,operators,Expressions",3,"What will be the output of the program?
+
+class Equals 
+{
+    public static void main(String [] args) 
+    {
+        int x = 100;
+        double y = 100.1;
+        boolean b = (x = y); /* Line 7 */
+        System.out.println(b);
+    }
+}",a). true,b). false,c). Compilation fails,d). An exception is thrown at runtime,3,"The code will not compile because in line 7, the line will work only if we use (x==y) in the line. The == operator compares values to produce a boolean, whereas the = operator assigns a value to variables.Option A, B, and D are incorrect because the code does not get as far as compiling. If we corrected this code, the output would be false.",www.javatpoint.com,1
+25,IT,JAVA,"Type conversion and casting, enumerated types, Control flow-block scope, conditional statements, loops, break and continue statements",1,"An expression involving byte, int and literal numbers is promoted to which of these?",int,long,byte,float,1,No Explanation,www.study2online.com,1
+26,IT,JAVA,"Type conversion and casting, enumerated types, Control flow-block scope, conditional statements, loops, break and continue statements",1,"If an expression contains double, int, float, long, then whole expression will promoted into which of these data types?",long,int,double,float,3,"If any operand is double the result of expression is double.
+
+",www.resume.mcalglobal.com,1
+27,IT,JAVA,"Type conversion and casting, enumerated types, Control flow-block scope, conditional statements, loops, break and continue statements",1,"The conditional statement, ………………. can only test for equality, whereas ……………….  can evaluate any type of Boolean expression."," if, switch","switch, if","while, if"," if, while",2,Switch statements checks for equality between the controlling variable and its constant cases.,www.siteforinfotech.com,1
+28,IT,JAVA,"Type conversion and casting, enumerated types, Control flow-block scope, conditional statements, loops, break and continue statements",1,which of the following for loops will be an infinite loop?,for(;;),for(i=0 ; i<1 ; i--),for(i=0 ; ; i++),all of the above,4,No Explanation,www.examveda.com,1
+29,IT,JAVA,"Type conversion and casting, enumerated types, Control flow-block scope, conditional statements, loops, break and continue statements",2,"What is the output of this program?
+ class char_increment {
+        public static void main(String args[]) 
+        {
+            char c1 = 'D';
+            char c2 = 84;
+            c2++;
+            c1++;
+            System.out.println(c1 + "" ""  + c2);
+        } 
+    }",E U,U E,V E,U F,1,"Operator ++ increments the value of character by 1. c1 and c2 are given values D and 84, when we use ++ operator their values increments by 1, c1 and c2 becomes E and U respectively.",www.resume.mcalglobal.com,1
+30,IT,JAVA,"Type conversion and casting, enumerated types, Control flow-block scope, conditional statements, loops, break and continue statements",2,"What is the error in this code?
+byte b = 50;
+ b = b * 50;","b can not contain value 100, limited by its range.","* operator has converted b * 50 into int, which can not be converted to byte without casting.",b can not contain value 50.,No error in this code,2,No Explanation,www.study2online.com,1
+31,IT,JAVA,"Type conversion and casting, enumerated types, Control flow-block scope, conditional statements, loops, break and continue statements",2,"int a=15;
+int b=25;
+if((a<b) || (a=5)>15)
+System.out.println(a);
+else
+System.out.println(b);",error,15,25,no output,2,No Explanation,www.siteforinfotech.com,1
+32,IT,JAVA,"Type conversion and casting, enumerated types, Control flow-block scope, conditional statements, loops, break and continue statements",2,"What will be the output of following program?
+public class temp
+{
+    public static void main(String agrs[])
+    {
+        int i;
+        for(i=1; i<=10; i++);
+        System.out.print(i);
+    }
+}",12345678910,11,error,1 2 3 4 5 6 7 8 9 10,2,"Consider the statement
+
+for(i=1; i<=10; i++);
+Since statement is terminated with semicolon (;), loop will be executed 10 times and then statement System.out.print(i); will be executed.",www.includehelp.com,1
+33,IT,JAVA,"Type conversion and casting, enumerated types, Control flow-block scope, conditional statements, loops, break and continue statements",3,"What is the output of this program?
+
+class conversion {
+
+        public static void main(String args[]) 
+
+        {
+
+            double a = 295.04;
+
+            int  b = 300;
+
+            byte c = (byte) a;
+
+            byte d = (byte) b;
+
+            System.out.println(c + "" ""  + d);
+
+        } 
+
+    }",38 43,39 44,295 300,295.04 300,2,Type casting a larger variable into a smaller variable results in modulo of larger variable by range of smaller variable. b contains 300 which is larger than byte’s range i:e -128 to 127 hence d contains 300 modulo 256 i:e 44.,www.resume.mcalglobal.com,1
+34,IT,JAVA,"Type conversion and casting, enumerated types, Control flow-block scope, conditional statements, loops, break and continue statements",3,"What will be the output of the following program?
+class Test { 
+public
+    static void main(String[] args) 
+    { 
+        int i = 0, j = 9; 
+        do { 
+            i++; 
+            if (j-- < i++) { 
+                break; 
+            } 
+        } while (i < 5); 
+        System.out.println(i + """" + j); 
+    } 
+}",44,55,66,77,3,we have to specially take care about the break statement. The execution of the program is going as usual as the control flow of do-while loop but whenever compiler encountered break statement its control comes out from the loop.,www.geeksforgeeks.org,1
+35,IT,JAVA,"Type conversion and casting, enumerated types, Control flow-block scope, conditional statements, loops, break and continue statements",3,"What is the output of this program?
+class jump_statments 
+    {
+        public static void main(String args[]) 
+        {        
+             int x = 2;
+             int y = 0;
+             for ( ; y < 10; ++y) 
+             {
+                 if (y % x == 0) 
+                     continue;  
+                 else if (y == 8)
+                      break;
+                 else
+                    System.out.print(y + "" "");
+             }
+        } 
+    }",1 3 5 7,2 4 6 8,1 3 5 7 9,1 2 3 4 5 6 7 8 9,3,"Whenever y is divisible by x remainder body of loop is skipped by continue statement, therefore if condition y == 8 is never true as when y is 8, remainder body of loop is skipped by continue statements of first if. Control comes to print statement only in cases when y is odd.",www.sanfoundry.com,1
+36,IT,JAVA,"Type conversion and casting, enumerated types, Control flow-block scope, conditional statements, loops, break and continue statements",3,"What is the output of this program?
+class comma_operator 
+    {
+        public static void main(String args[]) 
+        {    
+             int sum = 0;
+             for (int i = 0, j = 0; i < 5 & j < 5; ++i, j = i + 1)
+                 sum += i;
+       System.out.println(sum);
+ int var1 = 5; 
+            int var2 = 6;
+            if ((var2 = 1) == var1)
+                System.out.print(var2);
+            else 
+                System.out.print(++var2);
+        } 
+    }",5 1,6 2,14 3,compilation error 4,2,"Using comma operator, we can include more than one statement in the initialization and iteration portion of the for loop. Therefore both ++i and j = i + 1 is executed i gets the value – 0,1,2,3,4 & j gets the values -0,1,2,3,4,5.
+var2 is initialised to 1. The conditional statement returns false and the else part gets executed.",www.sanfoundry.com,1
+37,IT,JAVA,"constructors, methods, parameter passing, static fields and methods, access control, this reference",1,What is false about constructor?, Constructors cannot be synchronized in Java,Java does not provide default copy constructor,Constructor can be overloaded, “this” and “super” can be used in a constructor,3,"Default, parameterised constructors can be defined.",https://www.sanfoundry.com,1
+38,IT,JAVA,"constructors, methods, parameter passing, static fields and methods, access control, this reference",1,Which of these is used as a default for a member of a class if no access specifier is used for it?,private,public,"public, within its own package",protected,1,"When we pass an argument by call-by-value a copy of argument is made into the formal parameter of the subroutine and changes made on parameters of subroutine have no effect on original argument, they remain the same.",https://www.sanfoundry.com/java-mcqs-access-control/,1
+39,IT,JAVA,"constructors, methods, parameter passing, static fields and methods, access control, this reference",1,Which of these classes are used by Byte streams for input and output operation,InputStream,InputOutputStream, Reader,All the above,1,Byte stream uses InputStream and OutputStream classes for input and output operation,http://www.allindiaexams.in/engineering/cse/java,1
+40,IT,JAVA,"constructors, methods, parameter passing, static fields and methods, access control, this reference",1,What is the process of defining two or more methods within same class that have same name but different parameters declaration?,method overloading,method overriding,method hiding,None,1,"Two or more methods can have same name as long as their parameters declaration is different, the methods are said to be overloaded and process is called method overloading. Method overloading is a way by which Java implements polymorphism.",https://www.sanfoundry.com/,1
+41,IT,JAVA,"constructors, methods, parameter passing, static fields and methods, access control, this reference",2,What is not the use of “this” keyword in Java,Passing itself to another method,Calling another constructor in constructor chaining,Referring to the instance variable when local variable has the same name,Passing itself to method of the same class,4,“this” is an important keyword in java. It helps to distinguish between local variable and variables passed in the method as parameters.,https://www.sanfoundry.com/,1
+42,IT,JAVA,"constructors, methods, parameter passing, static fields and methods, access control, this reference",2,You want a class to have access to members of another class in the same package. Which is the most restrictive access that accomplishes this objective?,public,private ,protected,default access,4,To access the member of another class in same package in java default access is used.,https://www.astiwz.com/quiz/3-java-programming/,1
+43,IT,JAVA,"constructors, methods, parameter passing, static fields and methods, access control, this reference",2,Which of these class contains the methods print() & println()?,System,Sytem.out,BufferedOutputStream,PrintStream,4,"print() and println() are defined under the class PrintStream, System.out is the byte stream used by these methods .",http://www.allindiaexams.in/,1
+44,IT,JAVA,"constructors, methods, parameter passing, static fields and methods, access control, this reference",2,How many arguments can be passed to main()?,Infinite ,Only 1,System Dependent ,None,1,We can pass many arguments into a main function as many no of times,https://www.computersprofessor.com/,1
+45,IT,JAVA,"constructors, methods, parameter passing, static fields and methods, access control, this reference",3,"which object will be created first? class student{  int marks; };            student s1, s2,s3;    ",s1 then s2 then s3,s3 then s2 then s1,s2 then s3 then s1,All are created at same time,1,Explicit call to a constructor can let you create temporary instance. This is because the temporary instances doesn’t have any name. Those are deleted from memory as soon as their reference is removed.,https://www.sanfoundry.com/object-oriented-programming,1
+46,IT,JAVA,"constructors, methods, parameter passing, static fields and methods, access control, this reference",3,Which of the following class level (nonlocal) variable declarations will not compile?,protected int a;,transient int b=3;,public static final int c;,private synchronized e;,4,non local variable in the class declaration defined by private will not be compiled,https://www.astiwz.com/quiz/,1
+47,IT,JAVA,"constructors, methods, parameter passing, static fields and methods, access control, this reference",3,"what is the output of this program? Class Output{ Public static void main(String args[]) { StringBuffer s1 = new StringBuffer(""Hello"");s1.setCharAt(1,x);System.out.println(s1);}} ", xello, xxxxx,Hxllo,Hexlo,3,$ javac Output.java $ java Output  Hxllo,https://www.sanfoundry.com/java,1
+48,IT,JAVA,"constructors, methods, parameter passing, static fields and methods, access control, this reference",3,"What is the output of this program, Command line execution is done as – “java Output command Line 10 A b 4 N”?class Output {
+        public static void main(String args[]) {
+            System.out.print(""(int)args[2] * 2"");
+        }
+    }",Java,10,20,b,3,$ javac Output.java $ java Output  20,https://www.computersprofessor.com/,1
+49,IT,JAVA,"Over loading methods and constructors, recursion, garbage collection, building strings, exploring string class",1,When Overloading does not occur?,More than one method with same name but different method signature and different number or type of parameters,"More than one method with same name, same signature but different number of signature","More than one method with same name, same signature, same number of parameters but different type","More than one method with same name, same number of parameters and type but different signature",4,Overloading occurs when more than one method with same name but different constructor and also when same signature but different number of parameters and/or parameter type.,https://www.computersprofessor.com/,1
+50,IT,JAVA,"Over loading methods and constructors, recursion, garbage collection, building strings, exploring string class",1,What allows the programmer to destroy an object x?,x.delete(),x.finalize(),Runtime.getRuntime().gc(),"Only the garbage collection system can destroy an object.
+",4,No Explanation,www.astiwz.com,1
+51,IT,JAVA,"Over loading methods and constructors, recursion, garbage collection, building strings, exploring string class",1,What would be the behaviour if this() and super() used in a method?,Runtime error,Throws exception,compile time error,Runs successfully,3,this() and super() cannot be used in a method. This throws compile time error.,https://www.sanfoundry.com/java,1
+52,IT,JAVA,"Over loading methods and constructors, recursion, garbage collection, building strings, exploring string class",1,Which of these constructors is used to create an empty String object?,String(),String(void),String(0),None of the mentioned,1,String(),http://www.allindiaexams.in,1
+53,IT,JAVA,"Over loading methods and constructors, recursion, garbage collection, building strings, exploring string class",2,"void start() {  
+    A a = new A(); 
+    B b = new B(); 
+    a.s(b);  
+    b = null; /* Line 5 */
+    a = null;  /* Line 6 */
+    System.out.println(""start completed""); /* Line 7 */
+} 
+When is the B object, created in line 3, eligible for garbage collection?",after line 5,after line 6,after line 7,There is no way to be absolutely certain.,4,No Explanation,www.astiwz.com,1
+54,IT,JAVA,"Over loading methods and constructors, recursion, garbage collection, building strings, exploring string class",2,Which of these is not a correct statement?,A recursive method must have a base case,Recursion always uses stack,Recursive methods are faster that programmers written loop to call the function repeatedly using a stack,Recursion is managed by Java Runtime environment,4,Recursion is always managed by operating system,https://www.sanfoundry.com/java,1
+55,IT,JAVA,"Over loading methods and constructors, recursion, garbage collection, building strings, exploring string class",2,Abstract class cannot have a constructor.,TRUE,FALSE,1,0,2,No instance can be created of abstract class. Only pointer can hold instance of object.,https://www.sanfoundry.com/java,1
+56,IT,JAVA,"Over loading methods and constructors, recursion, garbage collection, building strings, exploring string class",2,"What is the output of this program?
+class String_demo 
+    {
+        public static void main(String args[])
+        {
+            int ascii[] = { 65, 66, 67, 68};
+            String s = new String(ascii, 1, 3);
+            System.out.println(s);
+        }
+   }
+",ABC,BCD,CDA,ABCD,2,"ascii is an array of integers which contains ascii codes of Characters A, B, C, D. String(ascii, 1, 3) is an constructor which initializes s with Characters corresponding to ascii codes stored in array ascii, starting position being given by 1 & ending position by 3, Thus s stores BCD.",https://www.sanfoundry.com/java,1
+57,IT,JAVA,"Over loading methods and constructors, recursion, garbage collection, building strings, exploring string class",3,"public class X 
+{
+    public static void main(String [] args) 
+    {
+        X x = new X();
+        X x2 = m1(x); /* Line 6 */
+        X x4 = new X();
+        x2 = x4; /* Line 8 */
+        doComplexStuff();
+    }
+    static X m1(X mx) 
+    {
+        mx = new X();
+        return mx;
+    }
+}
+After line 8 runs. how many objects are eligible for garbage collection?",0,1,2,3,2,No Explanation,www.astiwz.com,1
+58,IT,JAVA,"Over loading methods and constructors, recursion, garbage collection, building strings, exploring string class",3,"What is the output of this program?
+class recursion 
+    {
+        int func (int n) 
+        {
+            int result;
+            if (n == 1)
+                return 1;
+            result = func (n - 1);
+            return result;
+        }
+    } 
+    class Output 
+    {
+        public static void main(String args[]) 
+        {
+            recursion obj = new recursion() ;
+            System.out.print(obj.func(5));
+        }
+    }",0,1,120, None of the mentioned,2,No Explanation,www.sanfoundry.com,1
+59,IT,JAVA,"Over loading methods and constructors, recursion, garbage collection, building strings, exploring string class",3,"public class Test
+{
+public static void main(String args[])
+{
+String a=""sai"";
+String b=""ram""
+System.out.println(a.charAt(0) > b.charAt(0) );
+}
+}
+Determine Output
+",TRUE,FALSE,Compilation error,throws Exception,1,Output will be True. Since when s1.charAt(0) ascii value is greater then s2.charAt(0). So it will return True.,www.examveda.com,1
+60,IT,JAVA,"Over loading methods and constructors, recursion, garbage collection, building strings, exploring string class",3,"What is the output of this program?
+
+    class String_demo 
+{
+        public static void main(String args[])
+        {
+            char chars[] = {'a', 'b', 'c'};
+            String s = new String(chars);
+            String s1 = ""abcd"";
+            int len1 = s1.length();
+            int len2 = s.length();
+            System.out.println(len1 + "" "" + len2);
+        }
+   }",3 0,0 3 ,3 4,4 3,4,No Explanation,www.sanfoundry.com,1
+61,IT,JAVA,Inheritance,1,"In inheritance, the class from which the properties are inherited is known as ?",Upper class,child class,Parent class,Top class,3,from the parent class properties are inherited to child class,https://www.sanfoundry.com,2
+62,IT,JAVA,Inheritance,1,"In inheritance, the class which inherits the properties of another class is known as ?",lower class,child class,down class,None,2,the properties come down from parent to child class,https://www.sanfoundry.com,2
+63,IT,JAVA,Inheritance,1,which keyword is used for inheritance in java ?,super,this,implements,extends,4,we use extends keyword for inheritance,https://www.examveda.com,2
+64,IT,JAVA,Inheritance,1,inheritance gives scope for ______,reusability,GUI apps,arrays,None,1,reusing of existing modules is possible through inheritance,https://www.indiabix.com,2
+65,IT,JAVA,Inheritance,2,What kind of inheritance is not possible in java ?,multiple,single,double,triple,1,java doesn't support multiple inheritance directly.,https://www.indiabix.com,2
+66,IT,JAVA,Inheritance,2,"Using which of the following, multiple inheritance in Java can be implemented?",Protected methods,Multithreading,interfaces,Private methods,3,interfaces solve the problem of multiple inheritance in java,https://www.indiabix.com,2
+67,IT,JAVA,Inheritance,2,All classes in Java are inherited from which class?,java.lang.class, java.class.inherited,java.class.object,java.lang.Object,4,All classes in java are inherited from Object class. Interfaces are not inherited from Object Class.,https://www.indiabix.com,2
+68,IT,JAVA,Inheritance,2,"In order to restrict a variable of a class from inheriting to subclass, how variable should be declared?",Protected,Private,Public,Static,2,"By declaring variable private, the variable will not be available in inherited to subclass.",https://www.indiabix.com,2
+69,IT,JAVA,Inheritance,3,"If super class and subclass have same variable name, which keyword should be used to use super class variable ?",super,this,upper,classname,1,Super keyword is used to access hidden super class variable in subclass.,https://www.indiabix.com,2
+70,IT,JAVA,Inheritance,3,Static members are not inherited to subclass.,TRUE,both,none,FALSE,4,Static members are also inherited to subclasses.,https://www.indiabix.com,2
+71,IT,JAVA,Inheritance,3,Which of the following is used for implementing inheritance through an interface?,inherited,using,extends,implements,4,Static members are also inherited to subclasses.,https://www.indiabix.com,2
+72,IT,JAVA,Inheritance,3,Which of the following is used for implementing inheritance through class?,inherited,using,extends,implements,3,Class can be extended using extends keyword. One class can extend only one class. A final class cannot be extended.,https://www.indiabix.com,2
+73,IT,JAVA,Inner Classes,3," What is the output of the following java program?
+public class Outer  
+{ 
+    public static int temp1 = 1; 
+    private static int temp2 = 2; 
+    public int temp3 = 3; 
+    private int temp4 = 4; 
+      
+    public static class Inner 
+    { 
+        private static int temp5 = 5; 
+          
+        private static int getSum() 
+        { 
+            return (temp1 + temp2 + temp3 + temp4 + temp5); 
+        } 
+    } 
+      
+    public static void main(String[] args) 
+    { 
+        Outer.Inner obj = new Outer.Inner(); 
+        System.out.println(obj.getSum()); 
+    } 
+      
+} ",15,9,5,Compilation Error,4,static inner classes cannot access non-static fields of the outer class.,https://www.geeksforgeeks.org,2
+74,IT,JAVA,Inner Classes,3,"public class Outer  
+{ 
+    private static int data = 10; 
+    private static int LocalClass() 
+    { 
+        class Inner 
+        { 
+            public int data = 20; 
+            private int getData() 
+            { 
+                return data; 
+            } 
+        }; 
+        Inner inner = new Inner(); 
+        return inner.getData(); 
+    } 
+      
+    public static void main(String[] args) 
+    { 
+        System.out.println(data * LocalClass()); 
+    } 
+} ",Compilation error,Runtime Error,200,None of the above,3,LocalClass() method defines a local inner class. This method creates an object of class Inner and return the value of the variable data that resides within it.,https://www.geeksforgeeks.org,2
+75,IT,JAVA,Inner Classes,3,"interface Anonymous 
+{ 
+    public int getValue(); 
+} 
+public class Outer  
+{ 
+    private int data = 15; 
+    public static void main(String[] args) 
+    { 
+        Anonymous inner = new Anonymous() 
+                { 
+                    int data = 5; 
+                    public int getValue() 
+                    { 
+                        return data; 
+                    } 
+                    public int getData() 
+                    { 
+                        return data; 
+                    } 
+                }; 
+        Outer outer = new Outer(); 
+        System.out.println(inner.getValue() + inner.getData() + outer.data); 
+    } 
+} ",25,Compilation error,20,Runtime error,2,the method getData() is undefined in Anonymous class which causes the compilation error.,https://www.geeksforgeeks.org,2
+76,IT,JAVA,Inner Classes,3,"
+public class Outer 
+{ 
+    private int data = 10; 
+      
+    class Inner 
+    { 
+        private int data = 20; 
+        private int getData() 
+        { 
+            return data; 
+        } 
+        public void main(String[] args) 
+        { 
+            Inner inner = new Inner(); 
+            System.out.println(inner.getData()); 
+              
+        } 
+    } 
+    private int getData() 
+    { 
+        return data; 
+    } 
+    public static void main(String[] args) 
+    { 
+        Outer outer = new Outer(); 
+        Outer.Inner inner = outer.new Inner(); 
+        System.out.printf(""%d"", outer.getData()); 
+        inner.main(args); 
+    } 
+}",2010,1020,Compilation Error,None of these,3,"Inner class defined above though, have access to the private variable data of the Outer class, but declaring a variable data inside an inner class makes it specific to the Inner class with no conflicts in term of variable declaration.",https://www.geeksforgeeks.org,2
+77,IT,JAVA,Inner Classes,1,The nested class can be declared ___________________,Public,Private,Protected,"Public, Protected, Private or default",4,"The nested class can be declared with any specifier, unlike the outer classes which can only be declared public or package private. This is a flexibility given for the nested class being a member of enclosing class.",https://www.sanfoundry.com,2
+78,IT,JAVA,Inner Classes,1, How to create object of the inner class?,OuterClass.InnerClass innerObject = new OuterClass.InnerClass ();,OuterClass.InnerClass innerObject = new InnerClass();,InnerClass innerObject = outerObject.new InnerClass();, OuterClass.InnerClass = outerObject.new InnerClass();,1,"An instance of inner class can exist only within instance of outer class. To instantiate the inner class, one must instantiate the outer class first. This can be done by the correct syntax above.",https://www.sanfoundry.com,2
+79,IT,JAVA,Inner Classes,1,How to access static nested classes?,OuterClass.StaticNestedClass,OuterClass->StaticNestedClass,OuterClass(StaticNestedClass),OuterClass[StaticNestedClass].,1,"Like any other member of the class, the static nested class uses the dot operator to be accessed. The reason behind is, the static classes can’t work with instances, hence we use enclosing class name to access static nested class.",https://www.sanfoundry.com,2
+80,IT,JAVA,Inner Classes,1,Instance of inner class can exist only _______________ enclosing class.,Within, Outside,Private to,Public to,1,The class defined inside another class is local to the enclosing class. This means that the instance of inner class will not be valid outside the enclosing class. There is no restriction for instance to be private or public always.,https://www.sanfoundry.com,2
+81,IT,JAVA,Inner Classes,2,Which feature of OOP reduces the use of nested classes?,Encapsulation,Inheritance,Binding,Abstraction,2,Using inheritance we can have the security of the class being inherited. The subclass can access the members of parent class. And have more feature than a nested class being used.,https://www.sanfoundry.com,2
+82,IT,JAVA,Inner Classes,2,Use of nested class ____________ encapsulation.,Increases,Decreases, Doesn’t affect,Slightly decreases,1,"The use of nested class increases encapsulation as the inner class is getting even more grouped into the enclosing class. Firstly the class encapsulate the data, having nested classes can increase the encapsulation even further.",https://www.sanfoundry.com,2
+83,IT,JAVA,Inner Classes,2,Which among the following is correct advantage of nested classes?,Makes the code more complex,Makes the code unreadable,Makes the code efficient and readable,Makes the code multithreaded,3,The use of nested classes make the code more streamed towards a single concept. This allows to group the most similar and related classes together and makes it even more efficient and readable.,https://www.sanfoundry.com,2
+84,IT,JAVA,Inner Classes,2,"If a declaration of a member in inner class has the same name as that in the outer class, then ________________ enclosing scope.",Outer declaration shadows inner declaration in,Inner declaration shadows outer declaration in,Declaration gives compile time error,Declaration gives runtime error,2,The inner class will have more preference for its local members than those of the enclosing members. Hence it will shadow the enclosing class members. This process is known as shadowing.,https://www.sanfoundry.com,2
+85,IT,JAVA,Interface & Abstract class,1,Which of these keywords is used by a class to use an interface defined previously?,imports,Import,implements,Implement,3,implements is the keyword to implement a class,https://www.geeksforgeeks.org/interfaces-in-java/,2
+86,IT,JAVA,Interface & Abstract class,2,"Which two of the following are legal declarations for abstract classes and interfaces?  1. final abstract class Test {}    2. public static interface Test {}   3. final public class Test {}   4. protected abstract class Test {}   5. protected interface Test {}   6. abstract public class Test {}
+1. final abstract class Test {}",1 and 2 ,2 and 4 ,3 and 5,3 and 6 ,4,both are public. Any one can provide implementation to them,https://www.examveda.com/java-program/practice-mcq-question-on-interfaces-and-abstract-classes/,2
+87,IT,JAVA,Interface & Abstract class,3,Which of the following is FALSE about abstract classes in Java,"If we derive an abstract class and do not implement all the abstract methods, then the derived class should also be marked as abstract using 'abstract' keyword",Abstract classes can have constructors,A class can be made abstract without any abstract method,A class can inherit from multiple abstract classes,4,multiple inheritence is not supported w.r.t classes,https://www.geeksforgeeks.org/interfaces-in-java/,2
+88,IT,JAVA,Interface & Abstract class,1, What is an interface?,An interface is a collection of constants and method declarations,An interface is a class that a child class can extend.,An interface is a collection of GUI components.,An interface is the collection of public methods of a class.,1,interface definition,https://www.geeksforgeeks.org/interfaces-in-java/,2
+89,IT,JAVA,Interface & Abstract class,2,"Which of the following is true about interfaces in java.  
+1) An interface can contain following type of members.
+....public, static, final fields (i.e., constants)
+2) An instance of interface can be created.
+3) A class can implement multiple interfaces.
+4) Many classes can implement the same interface.
+
+","1, 3 and 4","1, 2 and 4","2, 3 and 4","1, 2, 3 and 4",1,interface can not be intantiated,https://www.geeksforgeeks.org/interfaces-in-java/,2
+90,IT,JAVA,Interface & Abstract class,3,Which of the following statement(s) with regard to an abstract class in JAVA is/are TRUE ? I. An abstract class is one that is not used to create objects. II. An abstract class is designed only to act as a base class to be inherited by other classes.,Only I,Only II,Neither I nor II,Both I and II,4,Abstract data class is not used to create objects in Java and it is designed only to act as a base class to be inherited by other classes. Both Statement are correct. For more information Refer:Abstract Classes in Java Option (D) is correct,https://www.geeksforgeeks.org/interfaces-in-java/,2
+91,IT,JAVA,Interface & Abstract class,1,interface Taxable { double taxRate = 0.06; double calculateTax(); },No---because it contains a variable and interfaces cannot contain variables.,No---because the interface cannot contain a method that returns a value, Yes--taxRate will automatically be a constant since it is in an interface.,Yes--the method body will automatically be filled in.,3,all variables in interface are constant by default,https://www.geeksforgeeks.org/interfaces-in-java/,2
+92,IT,JAVA,Interface & Abstract class,2,Which of the following is true?,"A child class can extend a parent or implement an interface, but not do both",A child class can extend just one parent and can implement just one interface.,A child class can extend just one parent and can implement zero or more interfaces.,"A child class can extend zero or more parents, and can implement zero or more interfaces.",3,multiple inheritence is not supported w.r.t classes and supported w.r.t interfaces,https://www.geeksforgeeks.org/interfaces-in-java/,2
+93,IT,JAVA,Interface & Abstract class,3,"Can an interface name be used as the type of a variable, like this:  
+public static void main( String[] args ) { SomeInterface x; ... }",No---a variable must always be an object reference type.,No---a variable must always be an object reference type or a primitive type., No---a variable must always be a primitive type.,Yes--the variable can refer to any object who's class implements the interface.,4,feature of interface,https://www.geeksforgeeks.org/interfaces-in-java/,2
+94,IT,JAVA,Interface & Abstract class,1,Which of the following is correct way of implementing an interface salary by class manager?, class manager extends salary {},class manager implements salary {},class manager imports salary {},None of the mentioned.,2,class manager implements salary {},https://www.geeksforgeeks.org/interfaces-in-java/,2
+95,IT,JAVA,Interface & Abstract class,2,Can an interface extend another interface?,No---only classes can be extended.,No---interfaces can not be part of a hierarchy.,Yes--since all interfaces automatically extend Object.,Yes,4,inheritence w.r.t interface,https://www.geeksforgeeks.org/interfaces-in-java/,2
+96,IT,JAVA,Interface & Abstract class,3,Which if the following is correct,abstract class can not have non abstract methods,abstract class should have abstract methods,abstract class can have both abstract and non abstract methods,abstract class can be instantiated,3,feature of abstract class,https://www.tutorialspoint.com/java/java_abstraction.htm,2
+97,IT,JAVA,Interface & Abstract class,1,"Given the following piece of code: 
+public class School{         public abstract double numberOfStudent(); }",The keywords public and abstract cannot be used together.,The method numberOfStudent() in class School must have a body,You must add a return statement in method numberOfStudent().,Class School must be defined abstract.,4,abstract class definition,https://www.examveda.com/java-program/practice-mcq-question-on-interfaces-and-abstract-classes/,2
+98,IT,JAVA,Interface & Abstract class,2,Which of the following class definitions defines a legal abstract class?,class A { abstract void unfinished() { } } ,class A { abstract void unfinished(); },abstract class A { abstract void unfinished(); } ,public class abstract A { abstract void unfinished(); },3,abstract keyword should be before class,https://www.examveda.com/java-program/practice-mcq-question-on-interfaces-and-abstract-classes/,2
+99,IT,JAVA,Interface & Abstract class,3,"Suppose A is an abstract class, B is a concrete subclass of A, and both A and B have a default constructor. Which of the following is correct?   1. A a = new A();    2. A a = new B(); 3. B b = new A();  4. B b = new B();
+
+",1 and 2 ,2 and 4,3 and 4,1 and 3,2,parent class reference can hold all of its child classes objects,https://www.examveda.com/java-program/practice-mcq-question-on-interfaces-and-abstract-classes/,2
+100,IT,JAVA,Packages,1,"Which of the following is/are true about packages in Java?                    1 ) Every class is part of some package. 2) All classes in a file are part of the same package. 3) If no package is specified, the classes in the file go into a special unnamed package 4) If no package is specified, a new package is created with folder name of class and the class is put in this package. ",Both Type 1 and Type 2,Both Type 1 and Type 3,Both Type 3 and Type 4,Type 4 only,1,Package in java is designed for providing a way to keep one set of names separate from another. The class names declared in one Package does not conflict with the same class names declared in another,https://www.sanfoundry.com,2
+101,IT,JAVA,Packages,1,Which of these is a mechanism for naming and visibility control of a class and its content?,Object,Packages,Interfaces,None of the Mentioned.,2,Packages are both naming and visibility control mechanism. We can define a class inside a package which is not accessible by code outside the package.,https://www.indiabix.com,2
+102,IT,JAVA,Packages,1,Exception class is in _______ package,java.file,java.io,java.lang,java.util,3,No Explanation,Text Book,2
+103,IT,JAVA,Packages,1,Which of this package is used for invoking a method remotely?,java.rmi,java.awt,java.util,java.util,1,java.rmi provides capabilities for remote method invocation.,,2
+104,IT,JAVA,Packages,2,Which of this package is used for analyzing code during run-time?,java.applet,java.awt,java.io,java.lang.reflect,4,Reflection is the ability of a software to analyze itself. This is provided by java.lang.reflect package.,https://www.sanfoundry.com/java-mcqs-core-java-api-packages/,2
+105,IT,JAVA,Packages,2,A method within a class is only accessible by classes that are defined within the same package as the class of the method. Which one of the following is used to enforce such restriction?,Declare the method with the keyword public,Declare the method with the keyword private,Declare the method with the keyword protected,Do not declare the method with any accessibility modifiers,4,No Explanation,https://codingcompiler.com/core-java-multiple-choice-questions-answers/,2
+106,IT,JAVA,Packages,2,File class is included in which package?,java.io package ,java.lang package,java.awt package ,java.net.package,1,No Explanation,https://codingcompiler.com/core-java-multiple-choice-questions-answers/,2
+107,IT,JAVA,Packages,2,Which package contain the JDBC classes,java.jdbc.,java.sql.jdbc,java.sql,javax.jdbc.sql,3,No Explanation,http://www.oodlescoop.com/tutorial/multiple-choice-questions/java-mcq.jsp,2
+108,IT,JAVA,Packages,3,"What would be the output if the following code is executed?
+
+import java.io.*;
+protected class MyClass
+{
+Public static void main(String args[]){
+System.out.println(“My First Class”);
+}
+}
+",The code will not compile because the class cannot be 'protected';,code will not compile successfully but will not print anything on standard output,"   The program will compile and be executed successfully, print the message My First Clas.",  The code will not be compile because the main method cannot be written in a protected class,1,No Explanation,,2
+109,IT,JAVA,Packages,1,What is the process of defining two or more methods within same class that have same name but different parameters declaration?,method overloading,method overriding, method hiding,none of the mentioned,1," Two or more methods can have same name as long as their parameters declaration is different, the methods are said to be overloaded and process is called method overloading. Method overloading is a way by which Java implements polymorphism.",https://www.sanfoundry.com,2
+110,IT,JAVA,Packages,1,What is the process of defining a method in a subclass having same name & type signature as a method in its superclass?,Method overloading,Method overriding,Method hiding,None of the mentioned,2,No Explanation,https://www.sanfoundry.com,2
+111,IT,JAVA,Packages,1, Which of these keywords can be used to prevent Method overriding?,static,constant,protected, final,4,"To disallow a method from being overridden, specify final as a modifier at the start of its declaration. Methods declared as final cannot be overridden.",https://www.sanfoundry.com,2
+112,IT,JAVA,Packages,1, Which of these is supported by method overriding in Java?,Abstraction,Encapsulation,Polymorphism,None of the mentioned,3,No Explanation,https://www.sanfoundry.com,2
+113,IT,JAVA,Packages,2,What concepts come under Polymorphism in java?, Method overloading, Constructor overloading,. Method overriding, All the above,4,No Explanation,https://www.interviewsansar.com/2019/03/11/mcqs-multiple-choice-questions-polymorphism-java/,2
+114,IT,JAVA,Packages,2,What is an advantage of polymorphism? ,  The same program logic can be used with objects of several related types.,Variables can be re-used in order to save memory. ,  Constructing new objects from old objects of a similar type saves time. ,.    Polymorphism is a dangerous aspect of inheritance and should be avoided. ,1,No Explanation,http://web.cs.iastate.edu/,2
+115,IT,JAVA,Packages,2,"Can an object of a child type be assigned to a variable of the parent type? For example, 
+Card crd;
+BirthDay bd = new BirthDay(""Lucinda"", 42);
+
+crd = bd;   //  is this correct?
+",No--there must always be an exact match between the variable and the object types. ,No--but a object of parent type can be assigned to a variable of child type,Yes--an object can be assigned to a reference variable of the parent type,Yes--any object can be assgned to any reference variable. ,3,No Explanation,http://web.cs.iastate.edu/,2
+116,IT,JAVA,Packages,2,Can an abstract class define both abstract methods and non-abstract methods? ,  No--it must have all one or the other.,No--it must have all abstract methods.,    Yes--but the child classes do not inherit the abstract methods.,  Yes--the child classes inherit both.,4,No Explanation,web.cs.iastate.edu/,2
+117,IT,JAVA,Packages,2,What is an abstract method? ,An abstract method is any method in an abstract class. ,.    An abstract method is a method which cannot be inherited. ,An abstract method is one without a body that is declared with the reserved word abstract. ,.    An abstract method is a method in the child class that overrids a parent method. ,3,No Explanation,http://web.cs.iastate.edu/,2
+118,IT,JAVA,Packages,3,"What will be the output of the following program code?
+class Rectangle{
+      public int area(int length, int width){
+            return  length*width;
+      }
+}
+class Square extends Rectangle{
+      public int area(long length, long width){
+            return  (int) Math.pow(length, 2);
+      }
+}
+public class Test{
+      public static void main(String args[]){
+            Square r = new Square();
+            System.out.println(r.area(5 , 4));
+      }
+}", Will not compile.,Will compile and run printing out 20,Runtime error,Will compile and run printing out 25,2,No Explanation,www.examveda.com,2
+119,IT,JAVA,Packages,3,"What will be the output?
+class A{
+ static void method(){
+  System.out.println(""Class A method"");
+ }
+}
+class B extends A{
+ static void method(){
+  System.out.println(""Class B method"");
+ }
+}
+public class Test{
+ public static void main(String args[]){
+  A a = new B();
+  a.method();
+ }
+}",Class A method, Class B method, Compilation Error, Runtime Error,1,Overriding in Java simply means that the particular method would be called based on the run time type of the object and not on the compile time type. But in the above case the methods are static which means access to them is always resolved during compile time only using the compile time type information. Accessing them using object references is just an extra liberty given by the designers of Java.,www.examveda.com,2
+120,IT,JAVA,Packages,3,"class GFG 
+{ 
+ protected void getData() 
+ { 
+  System.out.println(""Inside GFG""); 
+ } 
+} 
+class GeeksforGeeks extends GFG 
+{ 
+ protected void getData() 
+ { 
+  System.out.println(""Inside GeeksforGeeks""); 
+ } 
+} 
+
+public class Test 
+{ 
+ public static void main(String[] args) 
+ { 
+  GFG obj = new GeeksforGeeks(); 
+  obj.getData(); 
+ } 
+} 
+", Inside GFG, Inside GeeksforGeeks, Compilation error,Runtime error,2,"A reference variable of GFG class is used to point to an object of class GeeksforGeeks. At the time of compilation, the JVM checks whether the method being called is defined in GFG class, but at the runtime, JVM invoke the method of GeeksforGeeks class because the object is from class GeeksforGeeks. Refer to static vs dynamic binding in java for more details.",www.geeksforgeeks.org,2
+121,IT,JAVA,Packages,3,"class Test 
+{ 
+ void myMethod() 
+ { 
+  System.out.println(""GeeksforGeeks""); 
+ } 
+} 
+public class Derived extends Test 
+{ 
+ void myMethod() 
+ { 
+  System.out.println(""GFG""); 
+ } 
+ 
+ public static void main(String[] args) 
+ { 
+  Derived object = new Test(); 
+  object.myMethod(); 
+ } 
+} 
+",GeeksforGeeks,GFG,Compilation error,Runtime error,3,A child class cannot be used as a reference to an object of super class.,www.geeksforgeeks.org,2
+122,IT,JAVA,Exception Handling,3,When does Exceptions in Java arises in code sequence?,Run Time,Compilation Time,Can Occur Any Time,None of the mentioned,1,Exceptions in java are run-time errors.,https://www.sanfoundry.com,3
+123,IT,JAVA,Exception Handling,1,Which of these keywords is not a part of exception handling?,try,finally,thrown,catch,3,"Exceptional handling is managed via 5 keywords – try, catch, throws, throw and finally.",https://www.sanfoundry.com,3
+124,IT,JAVA,Exception Handling,1,Which of these keywords must be used to monitor for exceptions?,try,finally,throw,catch,1,No Explanation,https://www.sanfoundry.com,3
+125,IT,JAVA,Exception Handling,1,Which of these keywords must be used to handle the exception thrown by try block in some rational manner?,try,finally,throw,catch,4,"If an exception occurs within the try block, it is thrown and cached by catch block for processing.",https://www.sanfoundry.com,3
+126,IT,JAVA,Exception Handling,1,Which of these keywords is used to manually throw an exception?,try,finally,throw,catch,3,No Explanation,https://www.interviewsansar.com/2019/03/11/mcqs-multiple-choice-questions-polymorphism-java/,3
+127,IT,JAVA,Exception Handling,1,Which of these is a super class of all exceptional type classes?,String,RuntimeExceptions,Throwable ,Cachable,3,All the exception types are subclasses of the built in class Throwable.,http://web.cs.iastate.edu/,3
+128,IT,JAVA,Exception Handling,1,Which of these class is related to all the exceptions that can be caught by using catch?,Error,Exception,RuntimeExecption,All of the mentioned,2,"Error class is related to java run time error that can’t be caught usually, RuntimeExecption is subclass of Exception class which contains all the exceptions that can be caught.",http://web.cs.iastate.edu/,3
+129,IT,JAVA,Exception Handling,1,Which of these class is related to all the exceptions that cannot be caught?,Error,Exception,RuntimeExecption,All of the mentioned,1,"Error class is related to java run time error that can’t be caught usually, RuntimeExecption is subclass of Exception class which contains all the exceptions that can be caught.",web.cs.iastate.edu/,3
+130,IT,JAVA,Exception Handling,1,Which of these handles the exception when no catch is used?,Default handler,finally ,throw handler,Java run time system,1,No Explanation,http://web.cs.iastate.edu/,3
+131,IT,JAVA,Exception Handling,1,Which of the following operators is used to generate instance of an exception which can be thrown using throw?,thrown ,alloc,malloc,new,4,new operator is used to create instance of an exception. Exceptions may have parameter as a String or have no parameter.,www.examveda.com,3
+132,IT,JAVA,Exception Handling,1,Which of these keywords is used to by the calling function to guard against the exception that is thrown by called function?,try,throws,throw,catch,2,If a method is capable of causing an exception that it does not handle. It must specify this behaviour the behaviour so that callers of the method can guard themselves against that exception. This is done by using throws clause in methods declaration.,www.examveda.com,3
+133,IT,JAVA,Exception Handling,2,"At runtime, error is recoverable.",TRUE,FALSE,,,2,Error is not recoverable at runtime. The control is lost from the application.,www.geeksforgeeks.org,3
+134,IT,JAVA,Exception Handling,2,A single try block must be followed by which of these?,finally ,catch,finally & catch,none of the mentioned,3,"try block can be followed by any of finally or catch block, try block checks for exceptions and work is performed by finally and catch block as per the exception.",https://www.sanfoundry.com,3
+135,IT,JAVA,Exception Handling,2,Which of these clause will be executed even if no exceptions are found?,throws,finally ,throw,catch,2,finally keyword is used to define a set of instructions that will be executed irrespective of the exception found or not.,https://www.sanfoundry.com,3
+136,IT,JAVA,Exception Handling,2,"What will be the output of the program
+public class Foo{
+public static void main(String args[]){
+try{
+return;
+}finally{
+System.out.println(“Finally”);
+}
+}
+}
+",finally ,Compilation fails,code runs with no output,an exception is thrown at runtime,1,"If you put a finally block after a try and its associated catch blocks, then once execution enters the try block, the code in that finally block will definitely be executed except in the following circumstances: 
+1. An exception arising in the finally block itself. 
+2. The death of the thread. 
+3. The use of System.exit() 
+4. Turning off the power to the CPU. 
+",https://www.sanfoundry.com,3
+137,IT,JAVA,Exception Handling,2,"What will be the output of the program
+try 
+{ 
+    int x = 0; 
+    int y = 5 / x; 
+} 
+catch (Exception e) 
+{
+    System.out.println(""Exception""); 
+} 
+catch (ArithmeticException ae) 
+{
+    System.out.println("" Arithmetic Exception""); 
+} 
+System.out.println(""finished"");
+
+",finished,Exception,compilation fails,Arithmetic Exceptional,3,"Compilation fails because ArithmeticException has already been caught. ArithmeticException is a subclass of java.lang.Exception, by time the ArithmeticException has been specified it has already been caught by the Exception class.
+If ArithmeticException appears before Exception, then the file will compile. When catching exceptions the more specific exceptions must be listed before the more general (the subclasses must be caught before the superclasses).
+",https://www.sanfoundry.com,3
+138,IT,JAVA,Exception Handling,2,Exception class is in ----------------package,java.io,java.file,java.lang,java.util,3," java.lang.Throwable
+public class Exception extends Throwable 
+The class Exception and its subclasses are a form of Throwable that indicates conditions that a reasonable application might want to catch. 
+",https://www.interviewsansar.com/2019/03/11/mcqs-multiple-choice-questions-polymorphism-java/,3
+139,IT,JAVA,Exception Handling,2,"To create our own exception class, we have to",Extend exception class,create our own try and catch block,use finally block,use throws keywords,1,"Java provides us facility to create our own exceptions which are basically derived classes of Exception.
+Example
+class MyException extends Exception{}
+",http://web.cs.iastate.edu/,3
+140,IT,JAVA,Exception Handling,2, Which of the following must be true of the object thrown by a throw statement?,It must be assignable to the throwable type,It must be assignable to the error type,It must be assignable to the Exception type,It must be assignable to the string type,1,"The throw statement requires a single argument: a throwable object. Throwable objects are instances of any subclass of the Throwable class. Here’s an example of a throw statement: 
+throw someThrowableObject;
+",http://web.cs.iastate.edu/,3
+141,IT,JAVA,Exception Handling,2,FileNotFoundException,is a subclass/extends IOException,is a compile time exception,Found in java.io package,All,4,"public class FileNotFoundException extends IOException
+Signals that an attempt to open the file denoted by a specified pathname has failed. 
+This exception will be thrown by the FileInputStream, FileOutputStream, and RandomAccessFile constructors when a file with the specified pathname does not exist. It will also be thrown by these constructors if the file does exist but for some reason is inaccessible, for example when an attempt is made to open a read-only file for writing.
+",web.cs.iastate.edu/,3
+142,IT,JAVA,Exception Handling,2,Whic of these are java.lang.Error in exception handling in java?,VirtualMachineError,ALL,AssertionError,ThreadDeath,2,"An Error is a subclass of Throwable that indicates serious problems that a reasonable application should not try to catch. Most such errors are abnormal conditions. The ThreadDeath error, though a ""normal"" condition, is also a subclass of Error because most applications should not try to catch it. ",http://web.cs.iastate.edu/,3
+143,IT,JAVA,Exception Handling,3,Which is valid about java.lang.Exceptions?,The class Exception and all its subclasses that are not also subclasses of RuntimeException are checked exceptions,The class error and all its subclasses are unchecked exceptions,The class RuntimeException and all its subclasses are unchecked exceptions,All,4,"public class Exception extends Throwable
+The class Exception and its subclasses are a form of Throwable that indicates conditions that a reasonable application might want to catch. 
+The class Exception and any subclasses that are not also subclasses of RuntimeException are checked exceptions. Checked exceptions need to be declared in a method or constructor's throws clause if they can be thrown by the execution of the method or constructor and propagate outside the method or constructor boundary.
+",www.examveda.com,3
+144,IT,JAVA,Exception Handling,3,can a method be overloaded on the basis of exception?,Will produce runtime Error,will produce compiletime error – ambiguity error,yes can be overloaded on basis of exception,None,3,The overloaded method can throw any exception thrown / not thrown by the method it overloads because both are independent things.,www.examveda.com,3
+145,IT,JAVA,Exception Handling,3,"What is the output of this program?
+Class exception_handling 
+        {
+            public static void main(String args[])
+            {
+                try 
+                {
+                    int a = 1;
+                    int b = 10 / a;
+                    try 
+                    {
+                         if (a == 1)
+                             a = a / a - a;
+                         if (a == 2) 
+                         {
+                             int c[] = {1};
+                             c[8] = 9;
+                         }
+                    }
+                    finally 
+                    {
+                        System.out.print(""A"");
+                    }
+                }
+                catch (Exception e) 
+                {
+                        System.out.println(""B"");
+                }
+            }
+        }
+
+",A,B,AB,BA,1,The inner try block does not have a catch which can tackle ArrayIndexOutOfBoundException hence finally is executed which prints ‘A’ the outer try block does have catch for ArrayIndexOutOfBoundException exception but no such exception occurs in it hence its catch is never executed and only ‘A’ is printed.,www.geeksforgeeks.org,3
+146,IT,JAVA,Exception Handling,3,"What is the output of this program?
+class exception_handling 
+    {
+        public static void main(String args[]) 
+        {
+            try 
+            {
+                throw new NullPointerException (""Hello"");
+            }
+            catch(ArithmeticException e)
+            {
+         System.out.print(""B"");         
+            }
+        }
+    }
+
+
+",A,B,Compilation Error,RUNTIME ERROR,4,"Try block is throwing NullPointerException but the catch block is used to counter Arithmetic Exception. Hence NullPointerException occurs since no catch is there which can handle it, runtime error occurs.",https://www.sanfoundry.com,3
+147,IT,JAVA,Exception Handling,3,Which of these exceptions will occur if we try to access the index of an array beyond its length?,ArithmeticException,ArrayException,ArrayIndexException,ArrayIndexOutOfBoundsException,4,ArrayIndexOutOfBoundsException is a built in exception that is caused when we try to access an index location which is beyond the length of an array.,https://www.sanfoundry.com,3
+148,IT,JAVA,Exception Handling,3,"What is the output of this program?
+ class exception_handling 
+    {
+        public static void main(String args[]) 
+        {
+            try 
+            {
+                System.out.print(""A"");
+                throw new NullPointerException (""Hello"");
+            }
+            catch(ArithmeticException e) 
+            {
+                System.out.print(""B"");         
+            }
+        }
+    }
+
+
+",A,B,Hello,Runtime Exception,3,Because we can’t go beyond array limit,https://www.sanfoundry.com,3
+149,IT,JAVA,Exception Handling,3,"What is the output of this program?
+class exception_handling 
+    {
+        public static void main(String args[]) 
+        {
+            try 
+            {
+                int i, sum;
+                sum = 10;
+                for (i = -1; i < 3 ;++i) 
+                {
+                    sum = (sum / i);
+                System.out.print(i);
+                }
+            }
+            catch(ArithmeticException e) 
+            {      
+                System.out.print(""0"");
+            }
+        }
+    }
+
+",-1,0,-10,-101,3,For the 1st iteration -1 is displayed. The 2nd exception is caught in catch block and 0 is displayed.,https://www.sanfoundry.com,3
+150,IT,JAVA,Exception Handling,3,What exception thrown by parseInt() method?,ArithmeticException,ClassNotFoundException,NullPointerException,NumberFormatException,4, parseInt() method parses input into integer. The exception thrown by this method is NumberFormatException.,https://www.interviewsansar.com/2019/03/11/mcqs-multiple-choice-questions-polymorphism-java/,3
+151,IT,JAVA,Exception Handling,3,"What is the output of this program?
+class exception_handling 
+    {
+        public static void main(String args[]) 
+        {
+            try 
+            {
+                System.out.print(""Hello"" + "" "" + 1 / 0);
+            }
+            catch(ArithmeticException e) 
+            {
+         System.out.print(""World"");         
+            }
+        }
+    }
+
+",Hello,World,Hello World,HelloWorld,2,"System.ou.print() function first converts the whole parameters into a string and then prints, before “Hello” goes to output stream 1 / 0 error is encountered which is cached by catch block printing just “World”.",http://web.cs.iastate.edu/,3
+152,IT,JAVA,Multithreading,3,What is multithreaded programming?,It’s a process in which two different processes run simultaneously,It’s a process in which two or more parts of same process run simultaneously,It’s a process in which many different process are able to access same information, It’s a process in which a single process can access information from many sources,2,Multithreaded programming a process in which two or more parts of the same process run simultaneously.,http://web.cs.iastate.edu/,3
+153,IT,JAVA,Multithreading,1,What decides thread priority?,process,process scheduler,Thread,Thread Scheduler,4,"Thread scheduler decides the priority of the thread execution. This cannot guarantee that higher priority thread will be executed first, it depends on thread scheduler implementation that is OS dependent.",web.cs.iastate.edu/,3
+154,IT,JAVA,Multithreading,1,What requires less resources?,Thread,process,Thread and Process,Neither Thread nor Process,1,Thread is a lightweight and requires less resources to create and exist in the process. Thread shares the process resources.,http://web.cs.iastate.edu/,3
+155,IT,JAVA,Multithreading,1,Which of these method can be used to make the main thread to be executed last among all the threads?,stop(),sleep(),join(),call(),2,"By calling sleep() within main(), with long enough delay to ensure that all child threads terminate prior to the main thread.",www.examveda.com,3
+156,IT,JAVA,Multithreading,1,Which of these method is used to find out that a thread is still running or not?,run(),Alive(),isAlive(),checkRun(),3,The isAlive( ) method returns true if the thread upon which it is called is still running. It returns false otherwise.,www.examveda.com,3
+157,IT,JAVA,Multithreading,1,What is the default value of priority variable MIN_PRIORITY AND MAX_PRIORITY?,0 & 256,0 & 1,1 & 10,1 & 256,3,The priority dat type is Integers and it is from 1 – 10,www.geeksforgeeks.org,3
+158,IT,JAVA,Multithreading,1,Which of these method waits for the thread to terminate?,sleep(),isAlive(),join(),stop(),3,java.lang.Thread class provides the join() method which allows one thread to wait until another thread completes its execution.,www.java-samples.com,3
+159,IT,JAVA,Multithreading,1,Which of these method is used to explicitly set the priority of a thread?,set(),make(),setPriority(),makePriority(),3,"The default value of priority given to a thread is 5 but we can explicitly change that value between the permitted values 1 & 10, this is done by using the method setPriority().",www.allindiaexams.in,3
+160,IT,JAVA,Multithreading,1,Which of these method is used to implement Runnable interface?,stop(),run(),runThread(),stopThread(),2,"To implement Runnable interface, a class needs only to implement a single method called run().",www.sanfoundry.com,3
+161,IT,JAVA,Multithreading,1,Which of these interface is implemented by Thread class?,Runnable,Connections,set,MapConnections,1,Runnable interface is used to create thread.,www.easytutorial.in,3
+162,IT,JAVA,Multithreading,1,Which of these method is used to begin the execution of a thread?,run(),start(),runThread(),startThread(),2,The start() method of thread class is used to begin the execution of thread.,https://www.sanfoundry.com,3
+163,IT,JAVA,Multithreading,2,How can a thread go from waiting to Runnable state?,notify/notifyAll,when sleep time is up,using resume(0 method when thread was suspended,All,4,A thread in the runnable state is executing in the Java virtual machine but it may be waiting for other resources from the operating system such as processor.,www.javamadesoeasy.com,3
+164,IT,JAVA,Multithreading,2,Which of these class is used to make a thread?,String,System,Thread,Runnable,3,"Thread class is used to make threads in java, Thread encapsulates a thread of execution. To create a new thread the program will either extend Thread or implement the Runnable interface.",http://www.allindiaexams.in,3
+165,IT,JAVA,Multithreading,2,Which of these method of Thread class is used to find out the priority given to a thread?,get(),ThreadPriority(),getPriority(),getThreadPriority(),3,getPriority() Method is used to find priority of the thread.,www.sanfoundry.com,3
+166,IT,JAVA,Multithreading,2,What does not prevent JVM from terminating?,process,Daemon Thread,user Thread,JVM Thread,2,Daemon thread runs in the background and does not prevent JVM from terminating. Child of daemon thread is also daemon thread.,www.geeksforgeeks.org,3
+167,IT,JAVA,Multithreading,2,Which of these statements is incorrect?,A thread can be formed by implementing Runnable interface only.,A thread can be formed by a class that extends Thread class.,start() method is used to begin execution of the thread., run() method is used to begin execution of a thread before start() method in special cases.,4,"run() method is used to define the code that constitutes the new thread, it contains the code to be executed. start() method is used to begin execution of the thread that is execution of run(). run() itself is never used for starting execution of the thread.",www.sanfoundry.com,3
+168,IT,JAVA,Multithreading,2,What is synchronization in reference to a thread?,It’s a process of handling situations when two or more threads need access to a shared resource.,Its a process by which many thread are able to access same shared resource simultaneously.,Its a process by which a method is able to access many different threads simultaneously.,Its a method that allow to many threads to access any information require.,1,"When two or more threads need to access the same shared resource, they need some way to ensure that the resource will be used by only one thread at a time, the process by which this is achieved is called synchronization.",www.sanfoundry.com,3
+169,IT,JAVA,Multithreading,2,Which of the following is a correct constructor for thread?,"Thread(Runnable a, String str)",Thread(int priority),"Thread(Runnable a, int priority)","Thread(Runnable a, ThreadGroup t)",1,"Thread(Runnable a, String str) is a valid constructor for thread. Thread() is also a valid constructor.",www.tutorialspoint.com,3
+170,IT,JAVA,Multithreading,2,Which of the following stops execution of a thread?,Calling SetPriority() method on a Thread object,Calling notify() method on an object,Calling wait() method on an object,Calling read() method on an InputStream object,2,notify() wakes up a single thread which is waiting for this object.,www.indiabix.com,3
+171,IT,JAVA,Multithreading,2,Which of these method is used to tell the calling thread to give up a monitor and go to sleep until some other thread enters the same monitor?,wait(),notify(),notifyAll(),sleep(),1,wait() method is used to tell the calling thread to give up a monitor and go to sleep until some other thread enters the same monitor. This helps in avoiding polling and minimizes CPU idle time.,www.sanfoundry.com,3
+172,IT,JAVA,Multithreading,2,Which of this method is used to avoid polling in Java?,wait(),notify(),notifyAll(),All of the mentioned above,4,"Polling is a usually implemented by looping in CPU is wastes CPU time, one thread being executed depends on other thread output and the other thread depends on the response on the data given to the first thread. In such situation CPU time is wasted, in Java this is avoided by using methods wait(), notify() and notifyAll().",www.proprofs.com,3
+173,IT,JAVA,Multithreading,3,Which of these method wakes up all the threads?,wakeAll(),notify(),start(),notifyAll(),4,notifyAll() wakes up all the threads that called wait() on the same object. The highest priority thread will run first.,https://www.sanfoundry.com,3
+174,IT,JAVA,Multithreading,3,Which of the following will ensure the thread will be in running state?,yield(),notify(),wait(),Thread.killThread(),3,"wait() always causes the current thread to go into the object’s wait pool. Hence, using this in a thread will keep it in running state.",www.indiabix.com,3
+175,IT,JAVA,Multithreading,3,What is true about threading?,run() method calls start() method and runs the code,run() method creates new thread,run() method can be called directly without start() method being called,start() method creates new thread and calls code written in run() method,4,start() eventually calls run() method. Start() method creates thread and calls the code written inside run method.,www.javamadesoeasy.com,3
+176,IT,JAVA,Multithreading,3,"What is the output of this program?
+ class multithreaded-programing
+    {
+        public static void main(String args[])
+        {
+            Thread t = Thread.currentThread();
+            System.out.println(t);        
+        }
+    }","Thread[5,main]","Thread[main,0]","Thread[main,5]","Thread[main,5,main]",4,"1. main is name of the current thread
+2.priority of the thread if not mentioned it will have default priority which is 5
+3.Thread group name.",www.sanfoundry.com,3
+177,IT,JAVA,Multithreading,3,What should not be done to avoid deadlock?,Avoid using multiple threads,Avoid hold several locks at once,Execute foreign code while holding a lock,Use interruptible locks,3,To avoid deadlock situation in Java programming do not execute foreign code while holding a lock.,www.javarevisitedblogspot.com,3
+178,IT,JAVA,Multithreading,3,What is true about time slicing?,Time slicing is OS service that allocates CPU time to available runnable thread,Time slicing is the process to divide the available CPU time to available runnable thread,Time slicing depends on its implementation in OS,Time slicing allocates more resources to thread,2,Time slicing is the process to divide the available CPU time to available runnable thread.,www.sanfoundry.com,3
+179,IT,JAVA,Multithreading,3,Which of these statements is incorrect?,"By multithreading CPU idle time is minimized, and we can take maximum use of it","By multitasking CPU idle time is minimized, and we can take maximum use of it",Two thread in Java can have the same priority,"A thread can exist only in two states, running and blocked",4,"Thread exist in several states, a thread can be running, suspended, blocked, terminated & ready to run.",www.sanfoundry.com,3
+180,IT,JAVA,Multithreading,3,What will happen if two thread of the same priority are called to be processed simultaneously?,Anyone will be executed first lexographically,Both of them will be executed simultaneously,None of them will be executed,It is dependent on the operating system,4,"In cases where two or more thread with same priority are competing for CPU cycles, different operating system handle this situation differently. Some execute them in time sliced manner some depending on the thread they call.",www.sanfoundry.com,3
+181,IT,JAVA,Multithreading,3,"What is the output of this program?
+    class newthread extends Thread
+    {
+	Thread t;
+	String name;
+	newthread(String threadname)
+        {
+	    name = threadname;
+	    t = new Thread(this,name);
+	    t.start();
+	}
+	public void run()
+        {
+        }
+     }
+    class multithreaded_programing
+    {
+        public static void main(String args[])
+        {
+	    newthread obj1 = 	 new newthread(""one"");
+	    newthread obj2 =	 new newthread(""two"");
+            try
+            {
+                Thread.sleep(1000);	
+                System.out.print(obj1.t.isAlive());
+            }
+            catch(InterruptedException e)
+            {
+	    System.out.print(""Main thread interrupted"");
+            }
+        }
+    }",TRUE,FALSE,main Thread Interrupted,None of the mentioned,2,"Thread.sleep(1000) has caused all the threads to be suspended for some time, hence onj1.t.isAlive() returns false.",www.sanfoundry.com,3
+182,IT,JAVA,Introduction to Collection Frameworks,3,Which interface provides the capability to store objects using a key-value pair?,"Java.util.Map
+","Java.util.Set
+","Java.util.List
+",Java.util.Collection,1,Map interface stores objects as key-value pair,https://www.indiabix.com,4
+183,IT,JAVA,Introduction to Collection Frameworks,1,Which statement is true for the class java.util.ArrayList?,"The elements in the collection are ordered.
+ ","The collection is guaranteed to be immutable.
+","The elements in the collection are guaranteed to be unique.
+","The elements in the collection are accessed using a unique key.
+",1,"Always the 
+elements in the 
+collection are ordered","https://www.indi
+abix.com",4
+184,IT,JAVA,Introduction to Collection Frameworks,1, What happens if we put a key object in a HashMap which exists?,"The new 
+object replaces 
+the older object","The new 
+object is discarded","The old
+ object is removed from the map"," It throws
+ an exception as the key already exists in the map",1,"HashMap 
+always contains unique keys. If same key is inserted again, the new object replaces the previous object.","https://www.san
+foundry.com",4
+185,IT,JAVA,Introduction to Collection Frameworks,1,"Which collection 
+class allows you to grow or shrink its size and provides indexed access to its elements, but whose methods are not synchronized?","java.util
+.HashSet
+","java.util.
+LinkedHashSet
+","java.util
+.List
+","java.util.
+ArrayList
+",4,"All of the collection 
+classes allow you to grow or shrink the size of your collection. ArrayList provides an index to its elements. The newer collection classes tend not to have synchronized methods. Vector is an older implementation of ArrayList functionality and has synchronized methods; it is slower than ArrayList.","https://www.ind
+iabix.com",4
+186,IT,JAVA,Introduction to Collection Frameworks,1,"Which of these is not a interface in the Collections Framework?
+",Collection ,Group,Set ,List,2,No Explanation,www.javamadesoeasy.com,4
+187,IT,JAVA,Introduction to Collection Frameworks,1,"Which interface restricts duplicate elements?
+",Set,List,Map,All,1,No Explanation,www.javamadesoeasy.com,4
+188,IT,JAVA,Introduction to Collection Frameworks,1, All the collection classes in java.util package are , fail-safe, fail-fast, Both,None,2,All collection classes in java.util package are fail-fast whereas all collection classes in java.util.concurrent package are fail-safe,https://snowdream.github.io,4
+189,IT,JAVA,Introduction to Collection Frameworks,2,"Which of these class object can be used to form a dynamic array?
+",ArrayList,Map,Vector, ArrayList & Vector,4,"Vectors are dynamic arrays, it contains many legacy methods that are not part of collection framework, and hence these methods are not present in ArrayList. But both are used to form dynamic arrays.",https://www.sanfoundry.com,4
+190,IT,JAVA,Introduction to Collection Frameworks,2,You need to store elements in a collection that guarantees that no duplicates are stored and all elements can be accessed in natural order. Which interface provides that capability?,"java.util.Map
+","java.util.Set
+","java.util.List
+","java.util.Collection
+",2,"A set is a collection 
+that contains no duplicate elements. The iterator returns the elements in no particular order (unless this set is an instance of some class that provides a guarantee). A map cannot contain duplicate keys but it may contain duplicate values. List and Collection allow duplicate elements.","https://www.asti
+wz.com",4
+191,IT,JAVA,Introduction to Collection Frameworks,2,Which provides better performance for the insertion and removal from the middle of the list?,"Vector
+","ArrayList
+","LinkedList
+",All,3,"With LinkedList 
+insertions and deletions can be done easily ","https://www.javamade
+soeasy.com",4
+192,IT,JAVA,Introduction to Collection Frameworks,2,The default capacity of a Vector is:,10,12,8,16,1,No Explanation,"https://www.javamade
+soeasy.com",4
+193,IT,JAVA,Introduction to Collection Frameworks,2,Which does NOT implement the Collection interface?,List,Map,Set,None,2,No Explanation,"https://www.javamade
+soeasy.com",4
+194,IT,JAVA,Introduction to Collection Frameworks,2,"What is the output of this program?
+import java.util.*;
+class vector 
+{
+public static void main(String args[]) 
+{
+Vector obj = new Vector(4,2);
+obj.addElement(new Integer(3));
+obj.addElement(new Integer(2));
+obj.addElement(new Integer(5));            System.out.println(obj.elementAt(1));
+        }
+    }",0,3,2,5,3,"obj.elementAt(1) returns the value stored at index 1, which is 2.",https://www.sanfoundry.com,4
+195,IT,JAVA,Introduction to Collection Frameworks,3,"What is the output of this program?
+import java.util.*;
+class Arraylist 
+    {
+public static void main(String args[]) 
+        {
+ArrayList obj = new ArrayList();
+obj.add(""A"");            obj.add(""B"");
+obj.add(""C"");
+obj.add(1, ""D"");
+System.out.println(obj);
+        }
+    }"," [A, B, 
+C, D].","[A, D, 
+B, C]."," [A, D,
+ C].","[A, B,
+ C].",2,"obj is an object of 
+class ArrayList hence it is an dynamic array which can increase and decrease its size. obj.add(“X”) adds to the array element X and obj.add(1,”X”) adds element x at index position 1 in the list, Hence obj.add(1,”D”) stores D at index position 1 of obj and shifts the previous value stored at that position by 1.
+Output:","https://www.sanfo
+undry.com",4
+196,IT,JAVA,Introduction to Collection Frameworks,3,"After resizing, size of ArrayList is increased by :",200%,50%,100%,none,2,No Explanation,"https://www.javamade
+soeasy.com",4
+197,IT,JAVA,"Random Class, Scanner Class & Calender Properties",3,Which allows the removal of elements from a collection?,Enumeration,Iterator,Both,None of the above,4,No Explanation,data-flair.training/blogs/java-quiz-questions/,4
+198,IT,JAVA,"Random Class, Scanner Class & Calender Properties",1,Iterator returned by ArrayList is?,Fail-fast,Fail-safe,Both,None of the above,1,No Explanation,data-flair.training/blogs/java-quiz-questions/,4
+199,IT,JAVA,"Random Class, Scanner Class & Calender Properties",1,Which is best suited to a multi-threaded environment?,WeakHashMap,Hashtable,HashMap,ConcurrentHashMap,4,No Explanation,"https://www.javamade
+soeasy.com",4
+200,IT,JAVA,"Random Class, Scanner Class & Calender Properties",1,"What would be the output of following code snippet?
+int a = random.nextInt(15) + 1;","Random number between 1 to 15, including 1 and 15","Random number between 1 to 15, excluding 15","Random number between 1 to 15, excluding 1","Random number between 1 to 15, excluding 1 and 15",1, random.nextInt(15) + 1; returns random numbers between 1 to 15 including 1 and 15.,https://www.sanfoundry.com,4
+201,IT,JAVA,"Random Class, Scanner Class & Calender Properties",1,Which method does not store string value after space?,next(),nextString(),nextLine(),Both 1 and 3,1,"next()
+
+next() method does not store string value after space.",www.includehelp.com,4
+202,IT,JAVA,"Random Class, Scanner Class & Calender Properties",1, StringTokenizer implements the Enumeration interface,TRUE,FALSE, Both,None,1,No Explanation,www.careerride.com,4
+203,IT,JAVA,"Random Class, Scanner Class & Calender Properties",1,"In Iterator, nextElement() method of Enumeration has been changed to:",next(),getNext(),returnNext(),name remains same,1,No Explanation,"https://www.javamade
+soeasy.com",4
+204,IT,JAVA,"Random Class, Scanner Class & Calender Properties",2,"Enumeration returned by Vector is?
+", fail-safe, fail-fast, Both,None,2,No Explanation,"https://www.javamade
+soeasy.com",4
+205,IT,JAVA,"Random Class, Scanner Class & Calender Properties",2,How many bits are used for generating random numbers?,32,64,48,8,3,Random number can accept 64 bits but it only uses 48 bits for generating random numbers.,https://www.sanfoundry.com,4
+206,IT,JAVA,"Random Class, Scanner Class & Calender Properties",2," Consider the following object declaration statement
+Scanner objectName= new Scanner(System.in);
+What is System.in in this declaration?",Class which point input device,Reference to Input stream,Reference to Computer System,None of these,2,No Explanation,www.includehelp.com,4
+207,IT,JAVA,"Random Class, Scanner Class & Calender Properties",2,The Comparator interface contains the method?,compareWith(),compareTo(),compare(),none,3,No Explanation,"https://www.javamade
+soeasy.com",4
+208,IT,JAVA,"Random Class, Scanner Class & Calender Properties",2,"
+What will be the output of the following program?
+
+import java.util.*;
+    public class nextToken {
+        public static void main(String[] args) {
+        StringTokenizer st = new StringTokenizer(""happydays, is,movie , ."");
+        System.out.println(st.nextToken("",""));
+    }
+}", happydays,movie,Some other output,Compilation Error or Runtime Error,1,No Explanation,java.meritcampus.com,4
+209,IT,JAVA,"Random Class, Scanner Class & Calender Properties",2,"What will be the output of the program?
+import java.util.*; 
+class I 
+{
+    public static void main (String[] args) 
+    {
+        Object i = new ArrayList().iterator(); 
+        System.out.print((i instanceof List)+"",""); 
+        System.out.print((i instanceof Iterator)+"",""); 
+        System.out.print(i instanceof ListIterator); 
+    } 
+}","Prints: false, false, false","Prints: false, false, true","Prints: false, true, false","Prints: false, true, true",3,No Explanation,www.astiwz.com,4
+210,IT,JAVA,"Random Class, Scanner Class & Calender Properties",3,"Which list class must be preferred in multi-threading environment, considering performance constraint
+",Vector,CopyOnWriteArrayList,ArrayList,ConcurrentArrayList,2,,"https://www.javamade
+soeasy.com",4
+211,IT,JAVA,"Random Class, Scanner Class & Calender Properties",3,"What will be the output of the following program?
+
+import java.util.*;
+public class CalendarDemo {
+    public static void main(String[] args) {
+        Calendar cal = Calendar.getInstance();
+        cal.set(Calendar.HOUR, 23);
+        cal.set(Calendar.MINUTE, 58);
+        cal.set(Calendar.SECOND, 59);
+        System.out.print(cal.get(Calendar.HOUR) + "":"");
+        System.out.print(cal.get(Calendar.MINUTE) + "":"");
+        System.out.print(cal.get(Calendar.SECOND));
+    }
+}", 23:58:59, 11:58:59,Output can not determined,Compilation Error or Runtime Error,2,No Explanation,http://java.meritcampus.com,4
+212,IT,JAVA,JDBC,3, Which of the following contains both date and time?, java.io.date, java.sql.date, java.util.date,java.util.dateTime,3,"java.util.date contains both date and time. Whereas, java.sql.date contains only date.",https://www.sanfoundry.com,4
+213,IT,JAVA,JDBC,1,Which JDBC driver Type(s) is(are) the JDBC-ODBC bridge?,Type 1,Type 2,Type 3,Type 4,1,"In a Type 1 driver, a JDBC bridge is used to access ODBC drivers installed on each client machine.",https://www.indiabix.com,4
+214,IT,JAVA,JDBC,1,Which of the following is not a component/class of JDBC API?,Statement,ResultSet,SQLException, ConnectionPool,4,"ConnectionPool is not a class of JDBC API. JDBC API consists of following interfaces and classes: DriverManager, Driver, Connection, Statement, ResultSet, SQLException.",www.tutorialspoint.com,4
+215,IT,JAVA,JDBC,1,"To execute a statement, we invoke method",executeUpdate method,executeRel method,executeStmt method,executeConn method,1,No Explanation,www.mcqslearn.com,4
+216,IT,JAVA,JDBC,1,The JDBC-ODBC bridge is,Multithreaded,Singlethreaded,Both,None of the above,1,No Explanation,www.eduzip.com,4
+217,IT,JAVA,JDBC,1,"JDBC is a ..................... interface, which means that it is used to invoke SQL commands directly ",low-level ,middle-level ,higher-level ,user,1,No Explanation,http://cn10xz.blogspot.com/,4
+218,IT,JAVA,JDBC,1,Which of the following is used to call stored procedure?,Statement,PreparedStatement,CallableStatment, CalledStatement,3,CallableStatement is used in JDBC to call stored procedure from Java program.,https://www.sanfoundry.com,4
+219,IT,JAVA,JDBC,2,"What does the Class.forName(""MyClass"") do?", Loads the class MyClass.,Execute any static block code of MyClass., Returns an instance of MyClass.,All of the above,4,"Class.forName(""MyClass"") first loads the class MyClass then executes any static block code of MyClass and returns an instance of MyClass.",www.tutorialspoint.com,4
+220,IT,JAVA,JDBC,2,Where is metadata stored in MySQL?,In the MySQL database metadata,In the MySQL database metasql,In the MySQL database mysql,None of the above is correct.,3,No Explanation,www.indiabix.com,4
+221,IT,JAVA,JDBC,2,which packages contain the JDBC classes?,java.jdbc and javax.jdbc,java.jdbc and java.jdbc.sql,java.sql and javax.sql,java.rdb and javax.rdb,3,No Explanation,www.eduzip.com,4
+222,IT,JAVA,JDBC,2,"…………………. Is an open source DBMS product that runs on UNIX, Linux and Windows",MySQL,JSP/SQL,JDBC/SQL,Sun ACCESS,1,No Explanation,www.eduzip.com,4
+223,IT,JAVA,JDBC,2,"Kind of driver converts JDBC calls on the client API for Oracle, Sybase, Informix, DB2, or other DBMS is known as 
+",JDBC-Net pure Java driver ,JDBC-ODBC Bridge plus ODBC driver ,Native-API partly-Java driver ,Both A and B,3,No Explanation,http://cn10xz.blogspot.com/,4
+224,IT,JAVA,JDBC,2,Which JDBC driver Type(s) can be used in either applet or servlet code?,Both Type 1 and Type 2,Both Type 1 and Type 3,Both Type 3 and Type 4,Type 4 only,3,"In a Type 3 driver, a three-tier approach is used to accessing databases. The JDBC clients use standard network sockets to communicate with an middleware application server. In a Type 4 driver, a pure Java-based driver that communicates directly with vendor’s database through socket connection.",https://www.examveda.com,4
+225,IT,JAVA,JDBC,3,ODBC is not appropriate for direct use from java because it uses a .............. , C interface ,C# interface,java interface,Both A and C,1,No Explanation,http://mhkbmc.blogspot.com,4
+226,IT,JAVA,JDBC,3,Java Soft provides ................. JDBC product components as part of the java Developer's Kit (JDK),3,2,4,1,1,No Explanation,http://mhkbmc.blogspot.com,4
+227,IT,JAVA,FILES,3,Which of these packages contain classes and interfaces used for input & output operations of a program?,java.util,java.lang,java.io,All of the mentioned,3,java.io provides support for input and output operations.,https://www.indiabix.com,4
+228,IT,JAVA,FILES,1,Which of these class is not a member class of java.io package,String,StringReader,Writer,File,1,String class is in lang package.,"https://www.indi
+abix.com",4
+229,IT,JAVA,FILES,1,Which of these interface is not a member of java.io package,DataInput,ObjectInput,ObjectFilter,FileFilter,3,ObjectFilter,"https://www.san
+foundry.com",4
+230,IT,JAVA,FILES,1,Which of these class is not related to input and output stream in terms of functioning?,File,Writer,InputStream,Reader,1,"A File describes properties of a file, a File object is used to obtain or manipulate the information associated with a disk file, such as the permissions, time date, and directories path, and to navigate subdirectories.","https://www.ind
+iabix.com",4
+231,IT,JAVA,FILES,1,Which of these is specified by a File object?,a file in disk,directory path,directory in disk,None of the mentioned,3,directory in disk,www.javamadesoeasy.com,4
+232,IT,JAVA,FILES,1,Which of these is method for testing whether the specified element is a file or a directory?, IsFile(),isFile(),Isfile(),isfile(),2,isFile() returns true if called on a file and returns false when called on a directory.,https://www.indiabix.com,4
+233,IT,JAVA,FILES,1,Which of these classes is used for input and output operation when working with bytes?,InputStream,Reader,Writer,All of the mentioned,1,InputStream & OutputStream are designed for byte stream. Reader and writer are designed for character stream.,"https://www.indi
+abix.com",4
+234,IT,JAVA,FILES,2,Which of these class is used to read and write bytes in a file?,FileReader,FileWriter,FileInputStream,InputStreamReader,3,FileInputStream,"https://www.san
+foundry.com",4
+235,IT,JAVA,FILES,2,Which of these is a method to clear all the data present in output buffers,clear(),flush(),fflush(),close(),2,flush(),"https://www.ind
+iabix.com",4
+236,IT,JAVA,FILES,2,Which of these is method is used for writing bytes to an outputstream, put(),print(),printf(),write(),2,write() and read() are the two main methods of OutputStream & InputStream respectively that are used for printing and reading the byte data.,www.javamadesoeasy.com,4
+237,IT,JAVA,FILES,2,Which of these class can be used to implement input stream that uses a character array as the source?,BufferedReader,FileReader,CharArrayReader,FileArrayReader,3,CharArrayReader is an implementation of an input stream that uses character array as a source. Here array is the input source.,https://www.indiabix.com,4
+238,IT,JAVA,FILES,2,Can data flow through a given stream in both directions?,"No; a stream has one direction only, input or output.",No; streams only work for output.,Yes; only one stream is needed to read and write a file,Yes; but only one direction at a time.,1,No Explanation,"https://www.indi
+abix.com",4
+239,IT,JAVA,FILES,2,Is the character data used inside a Java program exactly the same format as the character data in a text file written by Java?,"No. Internally Java uses 8-bit character data, but text files always use ASCII.","No. Internally Java programs always use 16-bit char data; but text files are written in UTF format, which is different",Yes. Java uses the same format for characters inside a program and in text files.,Yes. Character data has always used the same format for all computers and all files.,2,No Explanation,"https://www.san
+foundry.com",4
+240,IT,JAVA,FILES,3,What is the name of the abstract base class for streams dealing with general purpose (non-character) input?,   InputStream,OutputStream,Reader,Writer,1,No Explanation,"https://www.ind
+iabix.com",4
+241,IT,JAVA,FILES,3,Which of these classes can return more than one character to be returned to input stream?,BufferedReader,Bufferedwriter,PushbachReader,CharArrayReader,4,No Explanation,www.javamadesoeasy.com,4
+242,IT,JAVA,AWT &SWINGS,3,Give the abbreviation of AWT?,Applet Windowing Toolkit,Abstract Windowing Toolkit,Absolute Windowing Toolkit,None of the above,2,No Explanation,https://gksquiz.blogspot.com/2015/04/basics-of-awt-and-swing-mcq-set-1.html,5
+243,IT,JAVA,AWT &SWINGS,1,AWT is used for GUI programming in java?,TRUE,FALSE,,,1,No Explanation,https://gksquiz.blogspot.com/2015/04/basics-of-awt-and-swing-mcq-set-1.html,5
+244,IT,JAVA,AWT &SWINGS,1,"The following specifies the advantages of 
+It is lightweight.
+It supports pluggable look and feel.
+It follows MVC (Model View Controller) architecture.
+",Swing,AWT,Both A & B,None of the above,1,No Explanation,https://www.careerride.com/view/basics-of-awt-and-swing-java-test-15796.aspx,5
+245,IT,JAVA,AWT &SWINGS,1,Swing is not a part of JFC (Java Foundation Classes) that is used to create GUI application?,TRUE,FALSE,,,2,No Explanation,https://www.careerride.com/view/basics-of-awt-and-swing-java-test-15796.aspx,5
+246,IT,JAVA,AWT &SWINGS,1,Which class provides many methods for graphics programming?,java.awt,java.Graphics,java.awt.Graphics,None of the above,3,No Explanation,https://gksquiz.blogspot.com/2015/04/basics-of-awt-and-swing-mcq-set-1.html,5
+247,IT,JAVA,AWT &SWINGS,1,"These two ways are used to create a Frame
+By creating the object of Frame class (association)
+By extending Frame class (inheritance)
+",TRUE,FALSE,,,1,No Explanation,https://gksquiz.blogspot.com/2015/04/basics-of-awt-and-swing-mcq-set-1.html,5
+248,IT,JAVA,AWT &SWINGS,1,"The Following steps are required to perform
+1) Implement the Listener interface and overrides its methods
+2) Register the component with the Listener
+",Exception Handling,String Handling,Event Handling,None of the above,3,No Explanation,https://gksquiz.blogspot.com/2015/04/basics-of-awt-and-swing-mcq-set-1.html,5
+249,IT,JAVA,AWT &SWINGS,1,In which places can put the event handling code ,Same class,Other class,Annonymous class,All mentioned above,4,No Explanation,https://gksquiz.blogspot.com/2015/04/basics-of-awt-and-swing-mcq-set-1.html,5
+250,IT,JAVA,AWT &SWINGS,1,Which of these methods are used to register a keyboard event listener?,KeyListener(),addKistener(),addKeyListener(),eventKeyboardListener(),3,No Explanation,https://www.sanfoundry.com/java-mcqs-event-handling-basics/,5
+251,IT,JAVA,AWT &SWINGS,1,Which of these events is generated by scroll bar?,ActionEvent,KeyEvent,WindowEvent,AdjustmentEvent,4,No Explanation,https://www.sanfoundry.com/java-mcqs-actionevent-adjustmentevent-class/,5
+252,IT,JAVA,AWT &SWINGS,1,Which of these methods will be invoked if a character is entered?,keyPressed(),keyReleased(),keyTyped(),keyEntered(),3,No Explanation,https://www.sanfoundry.com/java-mcqs-event-listeners-interfaces/,5
+253,IT,JAVA,AWT &SWINGS,1,Which of these are constants defined in WindowEvent class?,WINDOW_ACTIVATED,WINDOW_CLOSED,WINDOW_DEICONIFIED,All of the mentioned,4,"WindowEvent class defines 7 constants – WINDOW_ACTIVATED, WINDOW_CLOSED, WINDOW_OPENED, WINDOW_DECONIFIED, WINDOW_CLOSING, WINDOW_DEACTIVATED, WINDOW_ICONIFIED.",https://www.sanfoundry.com/java-questions-answers-aptitude-test/,5
+254,IT,JAVA,AWT &SWINGS,1,Which of these methods can be used to know which key is pressed?,getKey(),getModifier(),getActionKey(),getActionEvent(),2,"The getModifiers() methods returns a value that indicates which modifiers keys (ALT, CTRL, META, SHIFT) were pressed when the event was generated",https://www.sanfoundry.com/java-mcqs-actionevent-adjustmentevent-class/,5
+255,IT,JAVA,AWT &SWINGS,1,Which of these events will be notified if scroll bar is manipulated?,ActionEvent,ComponentEvent,AdjustmentEvent,WindowEvent,3,AdjustmentEvent is generated when a scroll bar is manipulated.,https://www.sanfoundry.com/java-mcqs-event-handling-basics/,5
+256,IT,JAVA,AWT &SWINGS,1,Which of these methods are used to register a mouse motion listener?,addMouse(),addMouseListener(),addMouseMotionListner(),eventMouseMotionListener(),3,No Explanation,https://www.sanfoundry.com/java-mcqs-event-handling-basics/,5
+257,IT,JAVA,AWT &SWINGS,1,"Which is the container that contain title bar and can have MenuBars. It can have other components like button, textfield etc.?",Panel,Frame,Window,Container,2,No Explanation,https://gksquiz.blogspot.com/2015/04/basics-of-awt-and-swing-mcq-set-1.html,5
+258,IT,JAVA,AWT &SWINGS,2,"Which is a component in AWT that can contain another components like buttons, textfields, labels etc.?",Window,Container,Panel,Frame,2,No Explanation,https://gksquiz.blogspot.com/2015/04/basics-of-awt-and-swing-mcq-set-1.html,5
+259,IT,JAVA,AWT &SWINGS,2,"The ActionListener interface is used for handling action events,For example,it's used by a",JButton,JCheckbox,JMenuItem,All of these,4,No Explanation,https://gksquiz.blogspot.com/2015/04/basics-of-awt-and-swing-mcq-set-1.html,5
+260,IT,JAVA,AWT &SWINGS,2,"4)  Which of the following methods can be used to change the size of a java.awt.Component object?
+(1) dimension()
+(2) setSize()
+(3) area()
+(4) size()
+(5) resize()
+","(1), (2), (3) & (5)","(1), (2) & (5)",(2) & (5),"(2), (4) & (5)",3,No Explanation,https://www.syvum.com/cgi/online/serve.cgi/squizzes/java/awt.html?question_hide,5
+261,IT,JAVA,AWT &SWINGS,2,What is an event in delegation event model used by Java programming language?,An event is an object that describes a state change in a source,An event is an object that describes a state change in processing,An event is an object that describes any change by the user and system,"An event is a class used for defining object, to create events",1,An event is an object that describes a state change in a source.,https://www.sanfoundry.com/java-mcqs-event-handling-basics/,5
+262,IT,JAVA,AWT &SWINGS,2,Which of these methods can be used to determine the type of event?,getID(),getSource(),getEvent(),getEventObject(),1,getID() can be used to determine the type of an event.,https://www.sanfoundry.com/java-mcqs-event-handling-basics/,5
+263,IT,JAVA,AWT &SWINGS,2,Which of these is superclass of WindowEvent class?,WindowEvent,ComponentEvent,ItemEvent,InputEvent,2,"ComponentEvent is superclass of ContainerEvent, FocusEvent, KeyEvent, MouseEvent and WindowEvent.",https://www.sanfoundry.com/java-questions-answers-aptitude-test/,5
+264,IT,JAVA,AWT &SWINGS,2,Which of these are integer constants of TextEvent class?,TEXT_CHANGED,TEXT_FORMAT_CHANGED,TEXT_VALUE_CHANGED,TEXT_SIZE_CHANGED,3,TextEvent defines a single integer constant TEXT_VALUE_CHANGED.,https://www.sanfoundry.com/java-questions-answers-aptitude-test/,5
+265,IT,JAVA,AWT &SWINGS,2,Which of these interfaces handles the event when a component is added to a container?,ComponentListener,ContainerListener,FocusListener,InputListener,2,The ContainerListener defines methods to recognize when a component is added to or removed from a container.,https://www.sanfoundry.com/java-mcqs-event-listeners-interfaces/,5
+266,IT,JAVA,AWT &SWINGS,2,Which of these methods can be used to know the degree of adjustment made by the user?,getValue(),getAdjustmentType(),getAdjustmentValue(),getAdjustmentAmount(),1,"The amount of the adjustment can be obtained from the getvalue() method, it returns an integer value corresponding to the amount of adjustment made.",https://www.sanfoundry.com/java-mcqs-actionevent-adjustmentevent-class/,5
+267,IT,JAVA,AWT &SWINGS,2,Which of these interfaces define a method itemStateChanged()?,ComponentListener,ContainerListener,ActionListener,ItemListener,4,No Explanation,https://www.sanfoundry.com/java-mcqs-event-listeners-interfaces/,5
+268,IT,JAVA,AWT &SWINGS,2,Which of these methods is defined in MouseMotionAdapter class?,mouseDragged(),mousePressed(),mouseReleased(),mouseClicked(),1,The MouseMotionAdapter class defines 2 methods – mouseDragged() and mouseMoved.,https://www.sanfoundry.com/java-mcqs-event-listeners-interfaces/,5
+269,IT,JAVA,AWT &SWINGS,2,Which of these methods is used to get x coordinate of the mouse?,getX(),getXCoordinate(),getCoordinateX(),getPointX(),1,getX() and getY() are used to obtain X AND Y coordinates of the mouse.,https://www.sanfoundry.com/java-questions-answers-aptitude-test/,5
+270,IT,JAVA,AWT &SWINGS,2,Which of these interfaces define four methods?,ComponentListener,ContainerListener,ActionListener,InputListener,1,"ComponentListener defines four methods componentResized(), componentMoved(), componentShown() and componentHidden().",https://www.sanfoundry.com/java-mcqs-event-listeners-interfaces/,5
+271,IT,JAVA,AWT &SWINGS,2,Which of these methods can be used to obtain the command name for invoking ActionEvent object?,getCommand(),getActionCommand(),getActionEvent(),getActionEventCommand(),2,No Explanation,https://www.sanfoundry.com/java-mcqs-actionevent-adjustmentevent-class/,5
+272,IT,JAVA,AWT &SWINGS,2,Which of these constant value will change when the button at the end of scroll bar was clicked to increase its value?,BLOCK_DECREMENT,BLOCK_INCREMENT,UNIT_DECREMENT,UNIT_INCREMENT,4,UNIT_INCREMENT VALUE will change when the button at the end of scroll bar was clicked to increase its value.,https://www.sanfoundry.com/java-mcqs-actionevent-adjustmentevent-class/,5
+273,IT,JAVA,AWT &SWINGS,3,Which of these events is generated when the component is added or removed?,ComponentEvent,ContainerEvent,FocusEvent,InputEvent,2,A ContainerEvent is generated when a component is added to or removed from a container. It has two integer constants COMPONENT_ADDED & COMPONENT_REMOVED.,https://www.sanfoundry.com/java-mcqs-componentevent-containerevent-focusevent-class/,5
+274,IT,JAVA,AWT &SWINGS,3,Which of these are integer constants of ComponentEvent class?,COMPONENT_HIDDEN,COMPONENT_MOVED,COMPONENT_RESIZE,All of the mentioned,4,"The component event class defines 4 constants COMPONENT_HIDDEN, COMPONENT-MOVED, COMPONENT-RESIZE and COMPONENT-SHOWN.",https://www.sanfoundry.com/java-mcqs-componentevent-containerevent-focusevent-class/,5
+275,IT,JAVA,AWT &SWINGS,3,Which of these methods can be used to obtain the coordinates of a mouse?,getPoint(),getCoordinates(),getMouseXY(),getMouseCordinates(),1,"getPoint() method can be used to obtain coordinates of a mouse, alternatively we can use getX() and getY() methods for x and y coordinates of mouse respectively.",https://www.sanfoundry.com/java-questions-answers-aptitude-test/,5
+276,IT,JAVA,AWT &SWINGS,3,What is an event in delegation event model used by Java programming language?,An event is an object that describes a state change in a source,An event is an object that describes a state change in processing,An event is an object that describes any change by the user and system,"An event is a class used for defining object, to create events",1,An event is an object that describes a state change in a source.,https://www.sanfoundry.com/java-mcqs-event-handling-basics/,5
+277,IT,JAVA,AWT &SWINGS,3,What is a listener in context to event handling?,A listener is a variable that is notified when an event occurs,A listener is a object that is notified when an event occurs,A listener is a method that is notified when an event occurs,None of the mentioned,2,"A listener is a object that is notified when an event occurs. It has two major requirements first, it must have been registered with one or more sources to receive notification about specific event types, and secondly it must implement methods to receive and process these notifications.",https://www.sanfoundry.com/java-mcqs-event-handling-basics/,5
+278,IT,JAVA,AWT &SWINGS,3,Which of these methods can be used to know the type of focus change?,typeFocus(),typeEventFocus(),isTemporary(),isPermanent(),3,"There are two types of focus events – permanent and temporary. The isTemporary() method indicates if this focus change is temporary, it returns a Boolean value.",https://www.sanfoundry.com/java-mcqs-componentevent-containerevent-focusevent-class/,5
+279,IT,JAVA,AWT &SWINGS,3,Which of these methods can be used to get reference to a component that was removed from a container?,getComponent(),getchild(),getContainerComponent(),getComponentChild(),2,The getChild() method returns a reference to the component that was added to or removed from the container.,https://www.sanfoundry.com/java-mcqs-componentevent-containerevent-focusevent-class/,5
+280,IT,JAVA,AWT &SWINGS,3,Which of these methods can be used to change location of an event?,changePoint(),translatePoint(),changeCordinates(),translateCordinates(),2,No Explanation,https://www.sanfoundry.com/java-questions-answers-aptitude-test/,5
+281,IT,JAVA,AWT &SWINGS,3,Which of these are integer constants defined in ActionEvent class?,ALT_MASK,CTRL_MASK,SHIFT_MASK,All of the mentioned,4,"Action event defines 4 integer constants ALT_MASK, CTRL_MASK, SHIFT_MASK and ACTION_PERFORMED",https://www.sanfoundry.com/java-mcqs-actionevent-adjustmentevent-class/,5
+282,IT,JAVA,APPLETS,3,Which of these functions is called to display the output of an applet?,display(),paint(),displayApplet(),PrintApplet(),2,"Whenever the applet requires to redraw its output, it is done by using method paint().","https://www.san
+foundry.com",5
+283,IT,JAVA,APPLETS,1,Which of these methods can be used to output a string in an applet?,display(),paint(),drawString(),PrintApplet(),3,"drawString() method is defined in Graphics class, it is used to output a string in an applet.","https://www.ind
+iabix.com",5
+284,IT,JAVA,APPLETS,1,Which of these methods is a part of Abstract Window Toolkit (AWT),display(),paint(),drawString(),transient(),2,paint() is an abstract method defined in AWT.,www.javamadesoeasy.com,5
+285,IT,JAVA,APPLETS,1,Which of these modifiers can be used for a variable so that it can be accessed from any thread or parts of a program?,a) transient,b) volatile,c) global,d) No modifier is needed,2,The volatile modifier tells the compiler that the variable modified by volatile can be changed unexpectedly by other part of the program. Specially used in situations involving multithreading.,"https://www.san
+foundry.com",5
+286,IT,JAVA,APPLETS,1,". Applet class is a subclass of the panel class, which is again a subclass of the ………………….. class.",a) object,b) component,c) awt,d) container,4,-> Component -> Container -> Panel -> Applet -> JApplet,"https://www.ind
+iabix.com",5
+287,IT,JAVA,APPLETS,1,"What is the Message is displayed in the applet made by this program? import java.awt.*; import java.applet.*; public class myapplet extends Applet{public void paint(Graphics g){ g.drawString(""A Simple Applet"", 20, 20);} }",A Simple Applet,A Simple Applet 20 20,Compilation Error,Runtime Error,1,A Simple Applet (Output comes in a new java application),www.javamadesoeasy.com,5
+288,IT,JAVA,APPLETS,1,"The following example shows the creation of applet
+import java.applet.*;
+import java.awt.*;
+
+public class Main extends Applet{
+public void paint(Graphics g){
+g.drawString(""Welcome in Java Applet."",40,20);
+}
+}
+",Banner using Applet,Basic Applet,Display clock,None of the above,2,No Explanation,www.careerride.com,5
+289,IT,JAVA,APPLETS,1,"Arrange the steps involved in developing and testing the applet in correct order.
+i) creating an executable applet (.classfile)
+ii) preparing <APPLET> tag
+iii) creating HTML file
+iv) building an applet code (.java file)
+v)  testing the applet code","1-i, 2-ii, 3-iii, 4-iv, 5-v","1-ii, 2-iii, 3-iv, 4-v, 5-i","1-iv, 2-i, 3-ii, 4-iii, 5-v","1-iii, 2-iv, 3-v, 4-i, 5-ii",3,No Explanation,www.siteforinfotech.com,5
+290,IT,JAVA,APPLETS,1,"What is the Message is displayed in the applet made by this program? import java.awt.*; import java.applet.*; public class myapplet extends Applet{public void paint(Graphics g){ g.drawString(""A Simple Applet"", 20, 20);} }",20,50,100,System dependent,1,"the code in pain() method – g.drawString(“A Simple Applet”,20,20); draws a applet box of length 20 and width 20.","https://www.san
+foundry.com",5
+291,IT,JAVA,APPLETS,2,"What is the Message is displayed in the applet made by this program? import java.awt.*; import java.applet.*; public class myapplet extends Applet{ Graphic g; g.drawString(""A Simple Applet"", 20, 20); }",20,Default value,Compilation Error,Runtime Error,3,To implement the method drawString we need first need to define abstract method of AWT that is paint() method. Without paint() method we can not define and use drawString or any Graphic class methods.,"https://www.ind
+iabix.com",5
+292,IT,JAVA,APPLETS,2,The …………………. class is an abstract class that represents the display area of the applet.,display,graphics,text,area,2,No Explanation,www.javamadesoeasy.com,5
+293,IT,JAVA,APPLETS,2,The graphics class provides methods to draw a number of graphical figure including i) Text ii) Lines iii) Images iv) Ellipse,"i, ii and iii only","ii, iii and iv only","i, iii and iv only","All i, ii, iii and iv",4,"We can draw Text, Lines in applet window by using Graphics class, including text, lines, we can add shapes, Images to the applet.","https://www.san
+foundry.com",5
+294,IT,JAVA,APPLETS,2,The ………………. method is called to clear the screen and calls the paint( ) method.,update( ),paint( ),repaint( ),reupdate( ),1,update () method of the Component class which clears the window with the background color of the applet and then calls the paint () method.,"https://www.ind
+iabix.com",5
+295,IT,JAVA,APPLETS,2,We can change the text to be displayed by an applet by supplying new text to be displayed by an applet by supplying new text to the applet through a ……………………… tag.,<EDIT>,<CHANGE>,<REPLACE>,<PARAM>,4,"Explanation: <param> tag is used to supply the data from html page to java file, which contains applet code.",www.javamadesoeasy.com,5
+296,IT,JAVA,APPLETS,2,java allows programmers to develop the following,"applets, applications and servlets",applets and applications ,"applets, applications, servlets, javabeans and distributed objects",none of the above,1,No Explanation,www.gkseries.com,5
+297,IT,JAVA,APPLETS,2,Which of these functions is called to display the output of an applet?,display(),paint(), displayApplet(),PrintApplet(),2,"Whenever the applet requires to redraw its output, it is done by using method paint().",www.sanfoundry.com,5
+298,IT,JAVA,APPLETS,2,"If you want to assign a value of 88 to the variable year, then which of the following lines can be used within an <applet> tag.",number = getParameter(88),<number=99>,<param = radius value=88>,<param name=number value=88>,4,"<applet code=""UseParam.class"" width=""300"" height=""300""> 
+<param name=""msg"" value=""Welcome to applet""> 
+</applet>","https://www.san
+foundry.com",5
+299,IT,JAVA,APPLETS,3,Which of the following applet tags is legal to embed an applet class named Test into a webpage?,<applet class=Test width=200 height=100> </applet>,<applet code=Test.class width=200 height=100> </applet>,<applet>code=Test.class width=200 height=100> </applet>,<applet param=Test.class width=200 height=100> </applet>,2,"<applet code=""First.class"" width=""300"" height=""300"">","https://www.ind
+iabix.com",5
+300,IT,JAVA,APPLETS,3,The ……………….. attribute of applet tag specifies the amount of horizontal blank space the browser should leave surrounding the applet.,SPACE=pixels,HSPACE=piexls,HWIDTH=piexls,HBLANK=pixels,2,No Explanation,www.javamadesoeasy.com,5
+301,IT,JAVA,APPLETS,3,"   import java.awt.*;
+    import java.applet.*;
+    public class myapplet extends Applet
+    {
+        Graphic g;
+        g.drawString(""A Simple Applet"", 20, 20);    
+    }",20,Default value,Compilation Error,Runtime Error,3,To implement the method drawString we need first need to define abstract method of AWT that is paint() method. Without paint() method we can not define and use drawString or any Graphic class methods.,www.sanfoundry.com,5
+,,,,,,,,,,,,,
